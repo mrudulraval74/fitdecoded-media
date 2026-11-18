@@ -1,0 +1,9 @@
+{
+  "festival": "Akshaya Navami",
+  "greeting": "HAPPY AKSHAYA NAVAMI",
+  "sub": "Amla Navami wishes for lasting health and strength",
+  "colors": ["#10240F", "#C5F536"],
+  "icons": ["🪔", "🌳", "✨"],
+  "tips_title": "STAY FIT THIS AMLA NAVAMI",
+  "tips": [["🌿", "Add fresh amla to your plate, rich in vitamin C"], ["🚶", "Walk 15 min after the festive meal"], ["💧", "Sip water between sweets and snacks"]]
+}
