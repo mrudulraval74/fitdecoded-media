@@ -1,0 +1,33 @@
+# Topic bank (pick the first [ ] each run, mark [x] + date when posted)
+
+- [x] 2026-11-18 Eating after 8 PM makes you fat? (MYTH) — keyword DINNER
+- [ ] Do you need 1 scoop of whey every day to build muscle? (MYTH) — keyword PROTEIN
+- [ ] Ghee makes you fat? (MYTH, portion matters) — keyword GHEE
+- [ ] Can you build muscle on a vegetarian diet? (FACT) — keyword VEG
+- [ ] Lifting weights makes women bulky? (MYTH) — keyword STRONG
+- [ ] Is rice worse than roti for fat loss? (MYTH) — keyword RICE
+- [ ] Sleep affects fat loss and muscle growth (FACT) — keyword SLEEP
+- [ ] Do you need to work out 2 hours a day? (MYTH) — keyword PLAN
+- [ ] Is fruit sugar bad for weight loss? (MYTH) — keyword FRUIT
+- [ ] Muscle soreness means a good workout? (MYTH) — keyword SORE
+- [ ] Skipping breakfast slows your metabolism? (MYTH) — keyword BREAKFAST
+- [ ] 10,000 steps is a magic number? (MYTH, but walking helps) — keyword STEPS
+- [ ] Drinking water helps you eat less (FACT) — keyword WATER
+- [ ] Detox teas burn fat? (MYTH) — keyword DETOX
+- [ ] Creatine is a steroid? (MYTH) — keyword CREATINE
+- [ ] Paneer is a complete protein source? (FACT-ish, compare options) — keyword PANEER
+- [ ] Stretching before lifting prevents injury? (MYTH, warm-up instead) — keyword WARMUP
+- [ ] Chai with sugar 4 times a day adds up (FACT) — keyword CHAI
+- [ ] You can turn fat into muscle? (MYTH) — keyword RECOMP
+- [ ] Home workouts can build muscle (FACT) — keyword HOME
+- [ ] Eggs raise cholesterol for most people? (MYTH) — keyword EGGS
+- [ ] Rest days kill progress? (MYTH) — keyword REST
+- [ ] Brown bread is always healthy? (MYTH, read labels) — keyword LABEL
+- [ ] Squats are bad for knees? (MYTH, form matters) — keyword SQUAT
+- [ ] Protein damages kidneys in healthy people? (MYTH) — keyword KIDNEY
+- [ ] Cardio burns muscle? (MYTH) — keyword CARDIO
+- [ ] Stress can stall weight loss (FACT) — keyword STRESS
+- [ ] Fasted cardio burns more fat? (MYTH) — keyword FASTED
+- [ ] Namkeen and biscuits are "light" snacks? (MYTH) — keyword SNACK
+- [ ] Progressive overload is the key to muscle (FACT) — keyword OVERLOAD
+- [ ] Sweating more = burning more fat? (MYTH) — keyword SWEAT
