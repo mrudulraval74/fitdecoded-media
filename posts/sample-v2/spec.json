@@ -1,0 +1,10 @@
+{
+ "topic": "Can you build muscle on a vegetarian diet?",
+ "keyword": "VEG",
+ "slides": [
+  {"type": "cover", "photo": "FitDecoded_01.jpg", "focus": [0.5, 0.0], "label": "MYTH OR FACT?", "headline": "NO CHICKEN, *NO MUSCLE?*", "question": "Swipe to decode the truth >"},
+  {"type": "verdict", "photo": "FitDecoded_23.jpg", "verdict": "FACT", "headline": "You *can* build muscle on a vegetarian diet.", "stats": [["seedling", "~15g", "protein", "1 cup cooked chana"], ["cheese", "~18g", "protein", "100g paneer"]]},
+  {"type": "list", "photo": "FitDecoded_14.jpg", "label": "SCIENCE", "headline": "Muscles need *protein + training*, not meat.", "items": [["dumbbell", "Progressive Overload", "Lift a little heavier over time."], ["seedling", "Enough Protein", "Dal, paneer, soya, curd, milk."], ["bowl-food", "Every Meal Counts", "Add a protein source to each meal."], ["bed", "Sleep & Recovery", "Muscles grow when you rest."]]},
+  {"type": "truth", "photo": "FitDecoded_15.jpg", "truth": "Vegetarians build muscle the same way: train hard, eat enough protein.", "focus": ["Soya, paneer, dal, curd daily", "Train each muscle 2x a week", "Track your protein for 1 week"], "cta": "Comment \"VEG\" for my veg protein list"}
+ ]
+}

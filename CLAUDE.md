@@ -13,18 +13,31 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 - If fewer than 10 `[ ]` remain, append 20 new fresh topics in the same style (myths, facts, Indian diet, beginner gym, home workouts, recovery, sleep, protein, supplements). Never repeat a topic already in `posts/log.md`.
 - Optionally use last 7 days' insights (see "Daily update") to lean toward the themes that got the most reach.
 
+## Visual style (v2 — always use this)
+The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heavy italic headlines with one lime highlight word, lime icon circles, glassy HUD stat cards, FitDecoded logo. Use ONLY the v2 renderers below with photos from `library/`.
+
+### Choosing photos
+- `library/index.json` maps each of the owner's 50 photos to tags. Pick photos whose tags match the topic (e.g. rice → FitDecoded_28/39, sleep → 26, protein → 05/10/23, women → 02/21/32, walking → 16/19/34).
+- Use a different photo for each scene/slide where possible, and avoid the photos used in the last 3 posts (check `posts/log.md`, which records the photos used).
+- `focus` [x, y] (0-1) shifts the crop: y≈0.2 keeps faces/upper body, 0.5 centres.
+- If the owner adds more images to `library/`, add them to `index.json` with tags.
+
+### Accuracy
+Every number (protein grams, calories, hormone ratios) must be a well-established approximate value; round and prefix "~". If unsure, leave the number out. No medical claims.
+
 ## Building a Reel (morning post)
-1. Write `posts/YYYY-MM-DD/spec.json` using scene types in `engine/render_reel.py` docstring. Proven structure (~22–26 s):
-   hook (2.6s, 3 icons) → quiz (3.2s, seconds 3) → reveal (2.6s, MYTH or FACT, short body) → explain (3.8s, 2 icons) → compare (4.2s, good vs bad card, short one-line footer) → bullets (4.6s, 3 items with emoji) → cta (3.4s, one-word KEYWORD + what they get).
-   - Titles: short, ALL CAPS, max ~3 lines of 2–3 words. Bodies ≤ 20 words. Compare footer ≤ 30 characters. Bullet text ≤ 7 words.
-   - Every emoji used must exist as an icon: check `engine/icons/<codepoint>.webp` (the renderer raises an error if missing — swap the emoji).
-   - Some answers are FACT — vary it (not every topic is a myth).
-2. Render: `cd engine && python3 render_reel.py ../posts/DATE/spec.json ../posts/DATE/reel.mp4 ../posts/DATE/cover.jpg`
+1. Write `posts/YYYY-MM-DD/spec.json` in the format of `engine/render_reel2.py` docstring (example: `posts/sample-v2/reel_spec.json`). Proven structure (22–26 s):
+   hook (2.8s) → quiz (3.2s, seconds 3) → reveal (2.8s, MYTH or FACT) → explain (4.2s, 0-2 HUD stats) → list (5s, 3 items with Font Awesome icons) → cta (3.6s, one-word KEYWORD).
+   - Headlines short; mark ONE key word with *stars* for lime. Hook headline ≤ 5 words. Item titles ≤ 3 words, descriptions ≤ 6 words.
+   - Add a short Hinglish `sub` (subtitle) line to most scenes, like the owner's older Reels (e.g. "Kya roti se weight badhta hai?").
+   - Icons are Font Awesome solid names; check they exist in `engine/assets/fa_solid_map.json`.
+   - Vary MYTH and FACT answers.
+2. Render: `cd engine && python3 render_reel2.py ../posts/DATE/spec.json ../posts/DATE/reel.mp4 ../posts/DATE/cover.jpg`
 3. Check: extract 6 frames with ffmpeg, make a contact sheet, and look at it. Fix any text overflow/overlap and re-render.
 
 ## Building a carousel (evening post)
-Same spec format (quiz scene is skipped automatically), then
-`cd engine && python3 make_carousel.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
+Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstring (example: `posts/sample-v2/spec.json`): cover → verdict (with 1-2 HUD stats) → list (3-5 icon rows) → truth (truth box, 3 focus points, comment CTA, like/share/save footer). Render with
+`cd engine && python3 make_post2.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
 
 ## Festival posts (evening slot)
 - Every evening run, check whether TODAY (Asia/Calcutta date) has ANY festival, holiday or observance in **India or the USA**, big or small, using WebSearch (e.g. "festivals today <date> India", "holidays observances <date> USA", "Hindu festival <date>"). The owner wants all of them, not only the big ones. Include:
@@ -46,7 +59,7 @@ Same spec format (quiz scene is skipped automatically), then
 3. Reel: Windsor `execute_action` → `create_video_post` with `video_url`, `share_to_feed: true`, `thumb_offset: 1500`, caption.
    Carousel: `create_carousel_post` with the slide URLs in order and caption.
 4. Caption format: hook line with emoji → "MYTH or FACT?" teaser → 4–6 short emoji lines of value → 3 action steps → `💬 Comment "KEYWORD" and I'll ...` → a question that invites a reply → share + follow line → tagline → 8–10 hashtags (#FitDecoded first).
-5. Append to `posts/log.md`: `date | reel/carousel | topic | KEYWORD | media id`. Commit + push.
+5. Append to `posts/log.md`: `date | reel/carousel | topic | KEYWORD | media id | photos used`. Commit + push.
 
 ## Replying to comments (engagement)
 - Each run, pull comments from the last 7 days (fields: media_id, media_caption, comment_id, comment_text, comment_username, comment_parent_id, comment_timestamp).

@@ -1,0 +1,12 @@
+{
+ "topic": "Lifting weights makes women bulky?",
+ "keyword": "STRONG",
+ "scenes": [
+  {"type": "hook", "dur": 2.8, "photo": "FitDecoded_02.jpg", "focus": [0.5, 0.2], "label": "MYTH OR FACT?", "headline": "WEIGHTS MAKE WOMEN *BULKY?*", "sub": "Kya weights uthane se ladkiyan bulky ho jaati hain?"},
+  {"type": "quiz", "dur": 3.2, "photo": "FitDecoded_21.jpg", "question": "WHAT DO YOU *THINK?*", "seconds": 3},
+  {"type": "reveal", "dur": 2.8, "photo": "FitDecoded_32.jpg", "verdict": "MYTH", "headline": "Weights make you *strong*, not bulky.", "sub": "Let's decode the science!"},
+  {"type": "explain", "dur": 4.2, "photo": "FitDecoded_09.jpg", "focus": [0.5, 0.3], "label": "SCIENCE", "headline": "Women have *10-20x less* testosterone than men.", "stats": [["chart-line", "10-20x", "lower", "testosterone"], ["fire", "Years", "", "to build big muscle"]], "sub": "Big muscle needs years of heavy training and extra food."},
+  {"type": "list", "dur": 5.0, "photo": "FitDecoded_02.jpg", "label": "BENEFITS", "items": [["dumbbell", "Toned & Strong", "Shape, not size."], ["bone", "Stronger Bones", "Lowers risk later in life."], ["fire", "Better Fat Loss", "Muscle helps burn energy."]], "sub": "Strength training is great for every woman."},
+  {"type": "cta", "dur": 3.6, "keyword": "STRONG", "body": "and I'll send a *beginner workout plan* for women"}
+ ]
+}
