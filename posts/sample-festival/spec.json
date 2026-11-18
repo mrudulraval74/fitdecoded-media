@@ -1,0 +1,9 @@
+{
+  "festival": "Christmas",
+  "greeting": "MERRY CHRISTMAS",
+  "sub": "Celebrate big. Move a little. Enjoy every bite.",
+  "colors": ["#0B2A1C", "#E63946"],
+  "icons": ["🎄", "🎁", "✨"],
+  "tips_title": "STAY FIT THIS CHRISTMAS",
+  "tips": [["🍰", "Enjoy the cake, skip the second slice"], ["🚶", "Take a 15-min walk after dinner"], ["💧", "Drink water between treats"]]
+}

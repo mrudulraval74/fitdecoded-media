@@ -26,6 +26,12 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 Same spec format (quiz scene is skipped automatically), then
 `cd engine && python3 make_carousel.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
 
+## Festival posts (evening slot)
+- Every evening run, first check whether TODAY (Asia/Calcutta date) is a festival or national day widely celebrated in India. Fixed dates: Jan 1 New Year, Jan 14 Makar Sankranti/Pongal, Jan 26 Republic Day, Mar 8 Women's Day, Apr 7 World Health Day, Jun 21 International Yoga Day, Aug 15 Independence Day, Oct 2 Gandhi Jayanti, Dec 25 Christmas. Lunar-calendar festivals (Holi, Maha Shivratri, Ugadi/Gudi Padwa, Eid al-Fitr, Eid al-Adha, Raksha Bandhan, Janmashtami, Ganesh Chaturthi, Onam, Navratri, Dussehra, Karva Chauth, Dhanteras, Diwali, Bhai Dooj, Chhath, Guru Nanak Jayanti, Lohri) change every year: confirm today's date with a WebSearch (e.g. "Diwali 2027 date") before using one. Never guess a date.
+- If it is a festival: the evening post is a festival greeting instead of the normal carousel. Write `posts/DATE-fest/spec.json` (format in `engine/make_festival.py` docstring: greeting, sub, 2 festival colours, 3 festival icons, 3 festive fitness tips), render with `cd engine && python3 make_festival.py ../posts/DATE-fest/spec.json ../posts/DATE-fest/slide`, look at the slides, then publish both slides with `create_carousel_post` (or `create_image_post` with slide_1 if only one).
+- Festival caption: warm greeting → 1-line fitness angle → the 3 tips → "Comment 🙏 if you're celebrating!" → tagline → festival hashtags + #FitDecoded. Keep it respectful and inclusive; no religious claims.
+- Festival icon ideas: Diwali 🪔🎆✨ · Holi 🎨🌈💧 · Christmas 🎄🎁✨ · Eid 🌙🕌✨ · Sankranti 🪁☀️🌾 · Republic/Independence Day 🇮🇳🚩✨ · Yoga Day 🧘🌞✨ · Navratri/Dussehra 🔥🌸✨ · Onam 🌸🍌🥥 · Raksha Bandhan 🎁🍬✨ (check each icon exists).
+
 ## Publishing
 1. Commit and push the post folder to `main` (`git -c push.negotiate=true push origin main`).
 2. Public URL pattern: `https://raw.githubusercontent.com/mrudulraval74/fitdecoded-media/main/posts/<folder>/<file>` — confirm it returns HTTP 200 with curl before posting.
