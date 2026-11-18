@@ -1,8 +1,8 @@
 # Topic bank (pick the first [ ] each run, mark [x] + date when posted)
 
 - [x] 2026-11-18 Eating after 8 PM makes you fat? (MYTH) — keyword DINNER
-- [ ] Do you need 1 scoop of whey every day to build muscle? (MYTH) — keyword PROTEIN
-- [ ] Ghee makes you fat? (MYTH, portion matters) — keyword GHEE
+- [x] 2026-11-18 Do you need 1 scoop of whey every day to build muscle? (MYTH) — keyword PROTEIN
+- [x] 2026-11-18 Ghee makes you fat? (MYTH, portion matters) — keyword GHEE
 - [ ] Can you build muscle on a vegetarian diet? (FACT) — keyword VEG
 - [ ] Lifting weights makes women bulky? (MYTH) — keyword STRONG
 - [ ] Is rice worse than roti for fat loss? (MYTH) — keyword RICE
