@@ -27,9 +27,17 @@ Same spec format (quiz scene is skipped automatically), then
 `cd engine && python3 make_carousel.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
 
 ## Festival posts (evening slot)
-- Every evening run, first check whether TODAY (Asia/Calcutta date) is a festival or national day widely celebrated in India. Fixed dates: Jan 1 New Year, Jan 14 Makar Sankranti/Pongal, Jan 26 Republic Day, Mar 8 Women's Day, Apr 7 World Health Day, Jun 21 International Yoga Day, Aug 15 Independence Day, Oct 2 Gandhi Jayanti, Dec 25 Christmas. Lunar-calendar festivals (Holi, Maha Shivratri, Ugadi/Gudi Padwa, Eid al-Fitr, Eid al-Adha, Raksha Bandhan, Janmashtami, Ganesh Chaturthi, Onam, Navratri, Dussehra, Karva Chauth, Dhanteras, Diwali, Bhai Dooj, Chhath, Guru Nanak Jayanti, Lohri) change every year: confirm today's date with a WebSearch (e.g. "Diwali 2027 date") before using one. Never guess a date.
+- Every evening run, check whether TODAY (Asia/Calcutta date) has ANY festival, holiday or observance in **India or the USA**, big or small, using WebSearch (e.g. "festivals today <date> India", "holidays observances <date> USA", "Hindu festival <date>"). The owner wants all of them, not only the big ones. Include:
+  - All religious/cultural festivals of every community in India, including regional ones (e.g. Guru Nanak Jayanti, Chhath, Lohri, Bihu, Onam, Pongal, Ugadi, Baisakhi, Ganesh Chaturthi, Navratri days, Diwali days, Eid, Muharram, Christmas, Buddha Purnima, Mahavir Jayanti, Parsi New Year, Ekadashi-type big observances, Teej, Karva Chauth, Raksha Bandhan, Janmashtami, Holi, Maha Shivratri).
+  - Indian national days (Republic Day, Independence Day, Gandhi Jayanti, Children's Day, Teachers' Day, National Sports Day Aug 29, etc.).
+  - USA holidays and observances (New Year, MLK Day, Valentine's Day, St. Patrick's Day, Easter, Mother's Day, Memorial Day, Father's Day, Juneteenth, July 4, Labor Day, Halloween, Veterans Day, Thanksgiving, Black Friday, Hanukkah, Christmas, Kwanzaa, etc.).
+  - Global health/fitness days (World Health Day, Yoga Day, World Heart Day, World Diabetes Day, Men's/Women's Day, World Mental Health Day, Global Running Day, etc.).
+  - Skip only pure novelty "National <food> Day" entries unless they are fitness/health related.
+  - Confirm the date of every lunar or moveable festival with a search result for this year. Never guess a date.
+  - If several apply on one day, pick the one most relevant to the audience (Indian festivals first, then health days, then USA holidays) and mention the others in the caption if natural.
 - If it is a festival: the evening post is a festival greeting instead of the normal carousel. Write `posts/DATE-fest/spec.json` (format in `engine/make_festival.py` docstring: greeting, sub, 2 festival colours, 3 festival icons, 3 festive fitness tips), render with `cd engine && python3 make_festival.py ../posts/DATE-fest/spec.json ../posts/DATE-fest/slide`, look at the slides, then publish both slides with `create_carousel_post` (or `create_image_post` with slide_1 if only one).
 - Festival caption: warm greeting → 1-line fitness angle → the 3 tips → "Comment 🙏 if you're celebrating!" → tagline → festival hashtags + #FitDecoded. Keep it respectful and inclusive; no religious claims.
+- More icon ideas: Thanksgiving 🦃🥧🍁 · Halloween 🎃👻🍬 · July 4 🎆🇺🇸⭐ · Valentine's ❤️🌹💪 · Gurpurab 🙏🪔✨ · Children's Day 🎈⚽✨ · health days ❤️🧘🏃.
 - Festival icon ideas: Diwali 🪔🎆✨ · Holi 🎨🌈💧 · Christmas 🎄🎁✨ · Eid 🌙🕌✨ · Sankranti 🪁☀️🌾 · Republic/Independence Day 🇮🇳🚩✨ · Yoga Day 🧘🌞✨ · Navratri/Dussehra 🔥🌸✨ · Onam 🌸🍌🥥 · Raksha Bandhan 🎁🍬✨ (check each icon exists).
 
 ## Publishing
