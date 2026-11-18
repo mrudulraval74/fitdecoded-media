@@ -13,6 +13,9 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 - If fewer than 10 `[ ]` remain, append 20 new fresh topics in the same style (myths, facts, Indian diet, beginner gym, home workouts, recovery, sleep, protein, supplements). Never repeat a topic already in `posts/log.md`.
 - Optionally use last 7 days' insights (see "Daily update") to lean toward the themes that got the most reach.
 
+## Owner rule: NO REELS
+The owner wants **image posts only** (carousels / single images). Never publish a Reel or video. Both daily slots (7:22 AM and 6:22 PM IST) post image carousels on different topics; festival days use the festival post in the evening slot. The Reel section below is kept for reference only.
+
 ## Visual style (v2 — always use this)
 The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heavy italic headlines with one lime highlight word, lime icon circles, glassy HUD stat cards, FitDecoded logo. Use ONLY the v2 renderers below with photos from `library/`.
 
@@ -25,7 +28,7 @@ The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heav
 ### Accuracy
 Every number (protein grams, calories, hormone ratios) must be a well-established approximate value; round and prefix "~". If unsure, leave the number out. No medical claims.
 
-## Building a Reel (morning post)
+## Building a Reel (NOT USED — owner wants images only)
 1. Write `posts/YYYY-MM-DD/spec.json` in the format of `engine/render_reel2.py` docstring (example: `posts/sample-v2/reel_spec.json`). Proven structure (22–26 s):
    hook (2.8s) → quiz (3.2s, seconds 3) → reveal (2.8s, MYTH or FACT) → explain (4.2s, 0-2 HUD stats) → list (5s, 3 items with Font Awesome icons) → cta (3.6s, one-word KEYWORD).
    - Headlines short; mark ONE key word with *stars* for lime. Hook headline ≤ 5 words. Item titles ≤ 3 words, descriptions ≤ 6 words.
@@ -35,7 +38,7 @@ Every number (protein grams, calories, hormone ratios) must be a well-establishe
 2. Render: `cd engine && python3 render_reel2.py ../posts/DATE/spec.json ../posts/DATE/reel.mp4 ../posts/DATE/cover.jpg`
 3. Check: extract 6 frames with ffmpeg, make a contact sheet, and look at it. Fix any text overflow/overlap and re-render.
 
-## Building a carousel (evening post)
+## Building a carousel (both daily posts)
 Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstring (example: `posts/sample-v2/spec.json`): cover → verdict (with 1-2 HUD stats) → list (3-5 icon rows) → truth (truth box, 3 focus points, comment CTA, like/share/save footer). Render with
 `cd engine && python3 make_post2.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
 
