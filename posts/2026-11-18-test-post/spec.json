@@ -1,0 +1,12 @@
+{
+ "topic": "Ghee makes you fat?",
+ "keyword": "GHEE",
+ "scenes": [
+  {"type": "hook", "dur": 2.6, "tag": "MYTH OR FACT?", "title": "DOES GHEE\nMAKE YOU FAT?", "title_size": 140, "icons": ["🧈", "🫓", "🤔"]},
+  {"type": "reveal", "dur": 2.6, "answer": "MYTH", "body": "Ghee isn't the enemy. Portion is."},
+  {"type": "explain", "dur": 3.8, "tag": "THE SCIENCE", "title": "1 TSP GHEE\n= ~45 CALORIES", "body": "It's calorie-dense, so small amounts fit easily. Large spoonfuls add up fast.", "icons": ["🥄", "📈"]},
+  {"type": "compare", "dur": 4.2, "tag": "WHICH ONE IS THE PROBLEM?", "left": {"icon": "🫓", "label": "1 TSP ON ROTI", "sub": "Adds taste, fits your day", "good": true}, "right": {"icon": "🧈", "label": "GHEE-SOAKED PARATHAS", "sub": "4-5 spoons per meal", "good": false}, "footer": "Measure it. Don't pour it."},
+  {"type": "bullets", "dur": 4.6, "tag": "WHAT TO DO", "items": [["🥄", "Stick to 1-2 tsp per meal"], ["🍛", "Pair it with dal and veggies"], ["🧠", "Count it in your daily calories"]]},
+  {"type": "cta", "dur": 3.4, "keyword": "GHEE", "body": "and I'll share my healthy fats guide"}
+ ]
+}

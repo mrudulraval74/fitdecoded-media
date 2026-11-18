@@ -1,0 +1,13 @@
+{
+ "topic": "Do you need whey protein every day to build muscle?",
+ "keyword": "PROTEIN",
+ "scenes": [
+  {"type": "hook", "dur": 2.6, "tag": "MYTH OR FACT?", "title": "NO WHEY SHAKE =\nNO MUSCLE?", "title_size": 135, "icons": ["🥤", "💪", "🤔"]},
+  {"type": "quiz", "dur": 3.2, "question": "WHAT DO YOU THINK?", "seconds": 3},
+  {"type": "reveal", "dur": 2.6, "answer": "MYTH", "body": "Whey is just food protein in powder form."},
+  {"type": "explain", "dur": 3.8, "tag": "THE SCIENCE", "title": "TOTAL DAILY\nPROTEIN MATTERS", "body": "Your muscles can't tell if protein came from a shake, dal, paneer or eggs.", "icons": ["🥛", "🧀"]},
+  {"type": "compare", "dur": 4.2, "tag": "WHICH BUILDS MORE MUSCLE?", "left": {"icon": "🍛", "label": "PROTEIN IN EVERY MEAL", "sub": "Dal, paneer, curd, eggs", "good": true}, "right": {"icon": "🥤", "label": "ONE SHAKE ONLY", "sub": "Low-protein meals all day", "good": false}, "footer": "Meals first. Shake is backup."},
+  {"type": "bullets", "dur": 4.6, "tag": "WHAT TO DO", "items": [["🥚", "Add protein to every meal"], ["🫘", "Use dal, soya, paneer, curd"], ["🥤", "Shake only if you fall short"]]},
+  {"type": "cta", "dur": 3.4, "keyword": "PROTEIN", "body": "and I'll send 10 Indian high-protein foods"}
+ ]
+}
