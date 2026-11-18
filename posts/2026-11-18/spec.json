@@ -1,0 +1,84 @@
+{
+ "topic": "Eating after 8 PM makes you fat?",
+ "keyword": "DINNER",
+ "scenes": [
+  {
+   "type": "hook",
+   "dur": 2.6,
+   "tag": "MYTH OR FACT?",
+   "title": "EATING DINNER\nAFTER 8 PM\nMAKES YOU FAT?",
+   "icons": [
+    "⏰",
+    "🍽️",
+    "🌙"
+   ],
+   "title_size": 128
+  },
+  {
+   "type": "quiz",
+   "dur": 3.2,
+   "question": "WHAT DO YOU THINK?",
+   "seconds": 3
+  },
+  {
+   "type": "reveal",
+   "dur": 2.6,
+   "answer": "MYTH",
+   "body": "Your body doesn't check the clock."
+  },
+  {
+   "type": "explain",
+   "dur": 3.8,
+   "tag": "THE SCIENCE",
+   "title": "TOTAL CALORIES\nDECIDE FAT GAIN",
+   "body": "A 9 PM dinner within your daily calories won't turn into fat just because it's late.",
+   "icons": [
+    "🍚",
+    "⚖️"
+   ]
+  },
+  {
+   "type": "compare",
+   "dur": 4.2,
+   "tag": "WHICH ONE IS THE PROBLEM?",
+   "left": {
+    "icon": "🍗",
+    "label": "9 PM DINNER",
+    "sub": "Dal, roti, sabzi, protein",
+    "good": true
+   },
+   "right": {
+    "icon": "🍟",
+    "label": "11 PM SNACKING",
+    "sub": "Chips, sweets + scrolling",
+    "good": false
+   },
+   "footer": "Snacking is the real culprit."
+  },
+  {
+   "type": "bullets",
+   "dur": 4.6,
+   "tag": "WHAT TO DO",
+   "items": [
+    [
+     "🌙",
+     "Eat dinner 2-3 hours before sleep"
+    ],
+    [
+     "🥗",
+     "Fill half the plate with veggies + protein"
+    ],
+    [
+     "📱",
+     "No snacking while scrolling"
+    ]
+   ]
+  },
+  {
+   "type": "cta",
+   "dur": 3.4,
+   "keyword": "DINNER",
+   "body": "and I'll share 5 smart late-night snacks"
+  }
+ ]
+}
