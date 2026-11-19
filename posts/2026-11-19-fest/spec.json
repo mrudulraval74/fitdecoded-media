@@ -1,0 +1,9 @@
+{
+  "festival": "International Men's Day",
+  "greeting": "HAPPY MEN'S DAY",
+  "sub": "Strong body. Calm mind. Healthy heart.",
+  "colors": ["#0E1A2B", "#C5F536"],
+  "icons": ["💪", "❤️", "🧠"],
+  "tips_title": "MEN'S HEALTH CHECKLIST",
+  "tips": [["🏋️", "Lift weights 2-3 times a week"], ["😴", "Aim for 7-8 hours of sleep"], ["🤝", "Talk to a friend when stressed"]]
+}
