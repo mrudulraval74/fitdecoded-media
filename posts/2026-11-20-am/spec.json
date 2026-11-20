@@ -1,0 +1,10 @@
+{
+ "topic": "Lifting weights makes women bulky?",
+ "keyword": "STRONG",
+ "slides": [
+  {"type": "cover", "photo": "FitDecoded_02.jpg", "focus": [0.5, 0.2], "label": "MYTH OR FACT?", "headline": "WEIGHTS MAKE WOMEN *BULKY?*", "question": "Swipe to decode the truth >"},
+  {"type": "verdict", "photo": "FitDecoded_21.jpg", "focus": [0.5, 0.3], "verdict": "MYTH", "headline": "Lifting makes women *strong*, not bulky.", "stats": [["venus", "~10x", "less testosterone", "women vs men, on average"], ["dumbbell", "2-3x", "a week", "strength training is enough"]]},
+  {"type": "list", "photo": "FitDecoded_41.jpg", "label": "SCIENCE", "headline": "What lifting *really* does for women.", "items": [["fire", "Faster Metabolism", "Muscle burns more at rest."], ["bone", "Stronger Bones", "Helps protect bone health."], ["person-running", "Toned Shape", "Firm look, not big size."], ["bowl-food", "Better Fat Loss", "Pair with dal, paneer, curd."]]},
+  {"type": "truth", "photo": "FitDecoded_32.jpg", "truth": "Bulk takes years of heavy training and eating for it. Lifting makes you strong and fit.","focus": ["Lift 2-3 times a week", "Add a protein food to each meal", "Increase weight slowly"], "cta": "Comment \"STRONG\" for my beginner plan"}
+ ]
+}
