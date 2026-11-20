@@ -5,7 +5,7 @@ Slot B trigger: trig_01RCAzmrKUwuJ4ggixMekoKu ("FitDecoded evening image / festi
 
 Candidate times (IST):
 - Slot A: 09:22, 12:52, 15:22
-- Slot B: 20:22 (set 2026-11-20 for 2026-11-21, explore test; all Slot B candidates had 0 counted posts, next after 18:22), 20:22, 21:52
+- Slot B: 18:22 (unchanged). 2026-11-20 run chose 20:22 for 2026-11-21 (explore: all Slot B candidates have 0 counted posts, next after 18:22), but the update_trigger call was blocked because a scheduled run needs owner approval for it. Owner must apply manually.
 
 Phase: EXPLORE (started 2026-11-20)
 
@@ -25,4 +25,4 @@ Phase: EXPLORE (started 2026-11-20)
 
 ## Current settings
 - Slot A: 12:52 (set 2026-11-20, first explore test)
-- Slot B: 20:22 (set 2026-11-20 for 2026-11-21, explore test; all Slot B candidates had 0 counted posts, next after 18:22)
+- Slot B: 18:22 (unchanged). 2026-11-20 run chose 20:22 for 2026-11-21 (explore: all Slot B candidates have 0 counted posts, next after 18:22), but the update_trigger call was blocked because a scheduled run needs owner approval for it. Owner must apply manually.
