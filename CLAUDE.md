@@ -46,7 +46,7 @@ Every number (protein grams, calories, hormone ratios) must be a well-establishe
 3. Check: extract 6 frames with ffmpeg, make a contact sheet, and look at it. Fix any text overflow/overlap and re-render.
 
 ## Building a carousel (both daily posts)
-Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstring (example: `posts/sample-v2/spec.json`): cover → verdict (with 1-2 HUD stats) → list (3-5 icon rows) → truth (truth box, 3 focus points, comment CTA, like/share/save footer). Render with
+Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstring (example: `posts/sample-v2/spec.json`): **6 slides**: cover → verdict (with 1-2 HUD stats) → list (3-5 icon rows, saveable checklist/numbers) → compare (3-4 DON'T → DO swap rows with Indian food/habits, each side ≤ 5 words) → truth (truth box, 3 focus points, comment CTA) → follow (headline, 3 perks, "Send this to a friend who …" line). More slides = more swipe time, and Instagram re-shows unseen slides to people who didn't swipe, giving each post a second chance in feed. Render with
 `cd engine && python3 make_post2.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
 
 ## Festival posts (evening slot)
@@ -77,7 +77,14 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 - If a comment contains that post's KEYWORD, reply with the promised value (e.g. the 5 snacks) in a short friendly message, ≤ 600 characters.
 - For other genuine comments/questions, reply briefly and helpfully. Skip spam, abuse, or anything needing medical advice (reply: suggest consulting a doctor). Never reply to your own replies.
 
+## Daily data review (every run, before choosing the topic)
+1. Pull the last 30 days per post: media_id, timestamp, media_type, media_views, media_reach, media_like_count, media_comments_count, media_saved, media_shares, media_follows, media_profile_visits. Pull account daily: views, reach, views_non_followers, accounts_engaged, followers_count.
+2. Score each post: `score = reach + 5*shares + 5*saves + 10*follows + 3*comments + 3*profile_visits` (skip posts < 24 h old). Match media_id to topics via `posts/log.md`.
+3. Rewrite `posts/insights.md`: date of review, a table of the last 14 posts (date, topic, views, reach, shares, saves, follows, score) sorted by score, then 3 short bullet learnings (best theme, best cover style, what flopped) and the plan for today.
+4. Use it: if a theme (e.g. Indian food, weight-scale, protein) is in the top 3 by score, pick the next `[ ]` topic in that theme today (move it to the front of topics.md). If a post format/hook clearly flopped (score < half the median), don't repeat that hook style. Add 1-2 new topics inspired by the top post when the bank allows.
+5. Commit `posts/insights.md` with the post.
+
 ## Daily update (to the owner's phone)
 After posting, pull yesterday's account insights (views, reach, likes, comments, shares, saves, follower_count / followers_count) and the latest posts' media_views/media_reach, and send ONE short push notification + final message:
-"✅ Posted: <topic> (<format>) · Yesterday: <views> views, <reach> reach, +<new> followers (total <n>), <comments> comments · Best post this week: <topic> (<views> views) · Replied to <k> comments."
+"✅ Posted: <topic> (<format>) · Yesterday: <views> views, <reach> reach, +<new> followers (total <n>), <comments> comments · Best post this week: <topic> (<views> views) · Replied to <k> comments · Insight: <one learning from insights.md>."
 If anything failed (render, push, publish), say exactly what failed and do not retry publishing more than once.

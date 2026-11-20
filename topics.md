@@ -7,6 +7,7 @@
 - [x] 2026-11-20 Lifting weights makes women bulky? (MYTH) — keyword STRONG
 - [ ] Is rice worse than roti for fat loss? (MYTH) — keyword RICE
 - [ ] Chai with sugar 4 times a day adds up (FACT) — keyword CHAI
+- [ ] Your weight jumps after a cheat meal = fat gain? (MYTH, water + food weight) — keyword SCALE
 - [ ] Namkeen and biscuits are "light" snacks? (MYTH) — keyword SNACK
 - [ ] Paneer is a complete protein source? (FACT-ish, compare options) — keyword PANEER
 - [ ] Is fruit sugar bad for weight loss? (MYTH) — keyword FRUIT
@@ -31,3 +32,4 @@
 - [ ] Fasted cardio burns more fat? (MYTH) — keyword FASTED
 - [ ] Progressive overload is the key to muscle (FACT) — keyword OVERLOAD
 - [ ] Sweating more = burning more fat? (MYTH) — keyword SWEAT
+- [ ] Belly looks bigger at night than in the morning? (normal bloating, FACT) — keyword BLOAT
