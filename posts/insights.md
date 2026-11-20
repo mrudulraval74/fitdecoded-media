@@ -30,3 +30,15 @@ Score = reach + 5×shares + 5×saves + 10×follows + 3×comments + 3×profile vi
 ## Plan
 - 6-slide carousels (new compare + follow slides) for longer swipe time and a second feed showing.
 - Next topics: Indian food myths first (rice vs roti, chai, namkeen, paneer), plus more 'scale/body worry' topics like the weight-fluctuation post.
+
+## Best time (carousels/images only, IST, reach to date)
+| Time bucket | Posts | Avg views | Avg reach |
+|---|---|---|---|
+| 7–10 AM (7:24 AM slot) | 2 | 7 | 6 (today's post still young) |
+| 10 AM–1 PM | 2 | 14 | 8 |
+| 1–4 PM | 3 | 16 | 9 |
+| 6:25 PM (festival posts only) | 2 | 5 | 4 |
+
+- Midday (1–2 PM) carousels got ~2x the views of 7:24 AM ones. Small sample, so we keep measuring.
+- Reels posted ~1 PM also did best (163–183 views).
+- Decision 2026-11-20: first slot moved from 7:22 AM to 12:52 PM IST. Evening stays 6:22 PM until we have non-festival evening carousels to compare.

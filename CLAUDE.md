@@ -21,7 +21,7 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 - Optionally use last 7 days' insights (see "Daily update") to lean toward the themes that got the most reach.
 
 ## Owner rule: NO REELS
-The owner wants **image posts only** (carousels / single images). Never publish a Reel or video. Both daily slots (7:22 AM and 6:22 PM IST) post image carousels on different topics; festival days use the festival post in the evening slot. The Reel section below is kept for reference only.
+The owner wants **image posts only** (carousels / single images). Never publish a Reel or video. Both daily slots (12:52 PM and 6:22 PM IST; the first slot moved from 7:22 AM on 2026-11-20 after a timing review) post image carousels on different topics; festival days use the festival post in the evening slot. The Reel section below is kept for reference only.
 
 ## Visual style (v2 — always use this)
 The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heavy italic headlines with one lime highlight word, lime icon circles, glassy HUD stat cards, FitDecoded logo. Use ONLY the v2 renderers below with photos from `library/`.
@@ -82,7 +82,8 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 2. Score each post: `score = reach + 5*shares + 5*saves + 10*follows + 3*comments + 3*profile_visits` (skip posts < 24 h old). Match media_id to topics via `posts/log.md`.
 3. Rewrite `posts/insights.md`: date of review, a table of the last 14 posts (date, topic, views, reach, shares, saves, follows, score) sorted by score, then 3 short bullet learnings (best theme, best cover style, what flopped) and the plan for today.
 4. Use it: if a theme (e.g. Indian food, weight-scale, protein) is in the top 3 by score, pick the next `[ ]` topic in that theme today (move it to the front of topics.md). If a post format/hook clearly flopped (score < half the median), don't repeat that hook style. Add 1-2 new topics inspired by the top post when the bank allows.
-5. Commit `posts/insights.md` with the post.
+5. Timing: convert each post's timestamp to IST and add a "Best time" table to insights.md: time bucket (7–10 AM, 10 AM–1 PM, 1–4 PM, 4–7 PM, 7–10 PM, 10 PM+), number of carousels, average reach after 24 h. Compare carousels only with carousels (Reels and festival posts behave differently). Once a bucket has ≥ 5 carousels and its average reach is ≥ 1.5× the current slot's, recommend the change in the owner's notification (do not change the schedule yourself).
+6. Commit `posts/insights.md` with the post.
 
 ## Daily update (to the owner's phone)
 After posting, pull yesterday's account insights (views, reach, likes, comments, shares, saves, follower_count / followers_count) and the latest posts' media_views/media_reach, and send ONE short push notification + final message:
