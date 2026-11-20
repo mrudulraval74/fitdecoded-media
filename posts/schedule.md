@@ -5,7 +5,7 @@ Slot B trigger: trig_01RCAzmrKUwuJ4ggixMekoKu ("FitDecoded evening image / festi
 
 Candidate times (IST):
 - Slot A: 09:22, 12:52, 15:22
-- Slot B: 18:22, 20:22, 21:52
+- Slot B: 20:22 (set 2026-11-20 for 2026-11-21, explore test; all Slot B candidates had 0 counted posts, next after 18:22), 20:22, 21:52
 
 Phase: EXPLORE (started 2026-11-20)
 
@@ -20,8 +20,9 @@ Phase: EXPLORE (started 2026-11-20)
 | Date | Slot | Time (IST) | Topic | 24h reach |
 |---|---|---|---|---|
 | 2026-11-19 | A | 07:22 | Veg diet muscle | 6 |
-| 2026-11-20 | A | 07:22 | Women lifting bulky | (pending) |
+| 2026-11-20 | A | 07:24 (actual IG time) | Women lifting bulky | (pending; 2 at ~6 h) |
+| 2026-11-20 | B | 13:26 (manual test run) | Dev Uthani Ekadashi greeting (festival) | not counted (manual test + festival) |
 
 ## Current settings
 - Slot A: 12:52 (set 2026-11-20, first explore test)
-- Slot B: 18:22
+- Slot B: 20:22 (set 2026-11-20 for 2026-11-21, explore test; all Slot B candidates had 0 counted posts, next after 18:22)
