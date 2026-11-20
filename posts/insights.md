@@ -21,6 +21,8 @@ Score = reach + 5×shares + 5×saves + 10×follows + 3×comments + 3×profile vi
 | 11-18 | Akshaya Navami greeting | fest | 5 | 4 | 0 | 0 | 0 | 4 |
 | 11-19 | Men's Day greeting | fest | 4 | 3 | 0 | 0 | 0 | 3 |
 
+- Slot A check (1:40 PM IST, ~6 h after posting): "Women lifting bulky?" carousel has 6 views, 2 reach, 0 shares, 0 saves, 3 likes. That's slow even for a carousel, and the 7:24 AM post time was early.
+
 ## Learnings
 - Reels reach ~10x more than carousels (~130 vs ~11 views). Owner wants images only, so carousels must win on shares/saves.
 - Most-shared carousel: "Weight up overnight?" (4 shares from 6 reach): relatable daily-life worry + reassurance. Indian food myths (ghee, carbs) also get shares.

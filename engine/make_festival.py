@@ -67,9 +67,10 @@ def main():
     R.paste_icon(img, ic[0], 380, W / 2, 400)
     if len(ic) > 1: R.paste_icon(img, ic[1], 220, 190, 250, rot=-10)
     if len(ic) > 2: R.paste_icon(img, ic[2], 200, W - 190, 290, rot=10)
-    y = centered(d, s["greeting"], R.font(R.F_TITLE, 150), 650, (255, 255, 255))
+    y = centered(d, s["greeting"], R.font(R.F_TITLE, s.get("greeting_size", 150)), s.get("greeting_y", 650), (255, 255, 255))
     y = centered(d, s.get("sub", ""), R.font(R.F_MED, 52), y + 20, (235, 235, 235), gap=1.3)
-    centered(d, "From all of us at FitDecoded", R.font(R.F_BOLD, 40), max(y + 40, 1130), glow)
+    if max(y + 40, 1130) + 50 < H - 100:
+        centered(d, "From all of us at FitDecoded", R.font(R.F_BOLD, 40), max(y + 40, 1130), glow)
     img.save(f"{pre}_1.jpg", "JPEG", quality=92)
     if n == 1:
         print("ok 1 slide"); return

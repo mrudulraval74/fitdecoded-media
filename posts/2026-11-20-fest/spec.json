@@ -1,0 +1,31 @@
+{
+  "festival": "Dev Uthani Ekadashi",
+  "greeting": "HAPPY DEV UTHANI EKADASHI",
+  "sub": "Wishing you health and peace",
+  "colors": [
+    "#2A1206",
+    "#FFB020"
+  ],
+  "icons": [
+    "🪔",
+    "🙏",
+    "✨"
+  ],
+  "tips_title": "FASTING? STAY STRONG",
+  "tips": [
+    [
+      "💧",
+      "Sip water through the day"
+    ],
+    [
+      "🍌",
+      "Break the fast with fruit or light food"
+    ],
+    [
+      "🚶",
+      "A gentle 10-min walk, no heavy workout"
+    ]
+  ],
+  "greeting_size": 124,
+  "greeting_y": 640
+}
