@@ -8,6 +8,13 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 1. `sh engine/setup.sh` (downloads the 3D icon images into engine/icons; npm registry is allowed).
 2. Python needs Pillow + numpy (`pip install --break-system-packages pillow numpy` if missing); ffmpeg is preinstalled.
 
+## Growth rules (from 2026-11-20 data review)
+- Data (Nov 11–20): Reels averaged ~130 views each vs ~11 for carousels/images; ~90% of views came from non-followers via Reels. Festival greetings got 4–5 views. Keyword-comment CTAs got 0 comments in 15 posts; shares (up to 4 per post) were the strongest signal on carousels.
+- Prefer relatable Indian-food topics (rice/roti, chai, namkeen, paneer): the carbs/rice-roti Reel had the best watch time (~6.7 s).
+- Carousel cover: a bold, specific claim the viewer has heard at home ("MUMMY SAYS RICE MAKES YOU FAT?"), ≤ 6 words, one lime word. Slide 2 must deliver the answer immediately.
+- Make slides saveable: the list slide should be a checklist/number people want to keep (e.g. "~grams of protein in 5 Indian foods").
+- Never publish two feed posts less than 3 hours apart.
+
 ## Choosing today's topic
 - Read `topics.md`. Pick the first line still marked `[ ]`. Mark it `[x]` with the date when posted.
 - If fewer than 10 `[ ]` remain, append 20 new fresh topics in the same style (myths, facts, Indian diet, beginner gym, home workouts, recovery, sleep, protein, supplements). Never repeat a topic already in `posts/log.md`.
@@ -61,7 +68,7 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 2. Public URL pattern: `https://raw.githubusercontent.com/mrudulraval74/fitdecoded-media/main/posts/<folder>/<file>` — confirm it returns HTTP 200 with curl before posting.
 3. Reel: Windsor `execute_action` → `create_video_post` with `video_url`, `share_to_feed: true`, `thumb_offset: 1500`, caption.
    Carousel: `create_carousel_post` with the slide URLs in order and caption.
-4. Caption format: hook line with emoji → "MYTH or FACT?" teaser → 4–6 short emoji lines of value → 3 action steps → `💬 Comment "KEYWORD" and I'll ...` → a question that invites a reply → share + follow line → tagline → 8–10 hashtags (#FitDecoded first).
+4. Caption format: hook line with emoji → "MYTH or FACT?" teaser → 4–6 short emoji lines of value → 3 action steps → `🔖 Save this for later & 📤 send it to a friend who <relatable situation>` (primary CTA) → `💬 Comment "KEYWORD" and I'll ...` → a question that invites a reply → follow line → tagline → 8–10 hashtags, every one starting with # (#FitDecoded first).
 5. Append to `posts/log.md`: `date | reel/carousel | topic | KEYWORD | media id | photos used`. Commit + push.
 
 ## Replying to comments (engagement)
