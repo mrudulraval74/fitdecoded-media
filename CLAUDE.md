@@ -77,6 +77,12 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 - If a comment contains that post's KEYWORD, reply with the promised value (e.g. the 5 snacks) in a short friendly message, ≤ 600 characters.
 - For other genuine comments/questions, reply briefly and helpfully. Skip spam, abuse, or anything needing medical advice (reply: suggest consulting a doctor). Never reply to your own replies.
 
+## Auto posting time (no owner input needed)
+- `posts/schedule.md` holds the candidate times, the EXPLORE/EXPLOIT rule, the history and both trigger ids.
+- Every run: fill in the 24h reach for that slot's posts from 1+ days ago in the History table. Add today's row. Then pick TOMORROW's time for your own slot by the rule, and call `update_trigger` (Claude Code Remote) on your own slot's trigger id with `cron_expression` like `CRON_TZ=Asia/Kolkata 22 9 * * *`. Update "Current settings", commit and push. Mention the new time in the notification ("Tomorrow's post: 3:22 PM, testing").
+- Only change your own slot's trigger and only its cron_expression. Never create, delete or disable triggers.
+- Duplicate guard: if posts/log.md already has today's entry for your slot, do not publish again. Exit quietly with no notification. This happens when a time change makes the trigger fire a second time on the same day.
+
 ## Daily data review (every run, before choosing the topic)
 1. Pull the last 30 days per post: media_id, timestamp, media_type, media_views, media_reach, media_like_count, media_comments_count, media_saved, media_shares, media_follows, media_profile_visits. Pull account daily: views, reach, views_non_followers, accounts_engaged, followers_count.
 2. Score each post: `score = reach + 5*shares + 5*saves + 10*follows + 3*comments + 3*profile_visits` (skip posts < 24 h old). Match media_id to topics via `posts/log.md`.
