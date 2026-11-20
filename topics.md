@@ -4,7 +4,7 @@
 - [x] 2026-11-18 Do you need 1 scoop of whey every day to build muscle? (MYTH) — keyword PROTEIN
 - [x] 2026-11-18 Ghee makes you fat? (MYTH, portion matters) — keyword GHEE
 - [x] 2026-11-19 Can you build muscle on a vegetarian diet? (FACT) — keyword VEG
-- [ ] Lifting weights makes women bulky? (MYTH) — keyword STRONG
+- [x] 2026-11-20 Lifting weights makes women bulky? (MYTH) — keyword STRONG
 - [ ] Is rice worse than roti for fat loss? (MYTH) — keyword RICE
 - [ ] Sleep affects fat loss and muscle growth (FACT) — keyword SLEEP
 - [ ] Do you need to work out 2 hours a day? (MYTH) — keyword PLAN

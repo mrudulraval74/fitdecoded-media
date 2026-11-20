@@ -7,3 +7,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-18 | festival carousel | Akshaya Navami (Amla Navami) greeting | 🙏 | 18659478832006052 | none (festival template)
 2026-11-19 | carousel | Can you build muscle on a vegetarian diet? | VEG | 18446202079182468 | FitDecoded_01, 23, 14, 15
 2026-11-19 | festival carousel | International Men's Day greeting | 🙏 | 18080044181446418 | none (festival template)
+2026-11-20 | carousel | Lifting weights makes women bulky? | STRONG | 18236133124324706 | FitDecoded_02, 21, 41, 32
