@@ -9,3 +9,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-19 | festival carousel | International Men's Day greeting | 🙏 | 18080044181446418 | none (festival template)
 2026-11-20 | carousel | Lifting weights makes women bulky? | STRONG | 18236133124324706 | FitDecoded_02, 21, 41, 32
 2026-11-20 | festival carousel | Dev Uthani (Prabodhini) Ekadashi greeting | 🙏 | 18115542371621392 | none (festival template)
+2026-11-21 | carousel | Is rice worse than roti for fat loss? (12:52 slot) | RICE | 18122979634766581 | FitDecoded_28, 39, 04, 11, 29, 49

@@ -5,8 +5,10 @@
 - [x] 2026-11-18 Ghee makes you fat? (MYTH, portion matters) — keyword GHEE
 - [x] 2026-11-19 Can you build muscle on a vegetarian diet? (FACT) — keyword VEG
 - [x] 2026-11-20 Lifting weights makes women bulky? (MYTH) — keyword STRONG
-- [ ] Is rice worse than roti for fat loss? (MYTH) — keyword RICE
+- [x] Is rice worse than roti for fat loss? (MYTH) — keyword RICE (2026-11-21)
 - [ ] Chai with sugar 4 times a day adds up (FACT) — keyword CHAI
+- [ ] Going to the gym daily but no muscle? 3 mistakes (FACT: overload, protein, sleep) — keyword GROW
+- [ ] How much protein do you really need in a day? (~grams in 5 Indian foods) — keyword PROTEIN2
 - [ ] Your weight jumps after a cheat meal = fat gain? (MYTH, water + food weight) — keyword SCALE
 - [ ] Namkeen and biscuits are "light" snacks? (MYTH) — keyword SNACK
 - [ ] Paneer is a complete protein source? (FACT-ish, compare options) — keyword PANEER
