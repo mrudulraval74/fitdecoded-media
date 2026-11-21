@@ -1,0 +1,15 @@
+{
+  "festival": "Tulsi Vivah",
+  "greeting": "HAPPY TULSI VIVAH",
+  "sub": "Wishing your family health and joy",
+  "colors": ["#0E2410", "#9BE15D"],
+  "icons": ["🌿", "🪔", "✨"],
+  "tips_title": "STAY FIT THIS WEDDING SEASON",
+  "tips": [
+    ["🍌", "Enjoy prasad, keep sweets to a small bowl"],
+    ["🚶", "Walk 10-15 min after the festive meal"],
+    ["💧", "Drink water between chai and snacks"]
+  ],
+  "greeting_size": 130,
+  "greeting_y": 640
+}
