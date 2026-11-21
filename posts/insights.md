@@ -31,6 +31,7 @@ Account: 0 comments all week; followers_count = 3.
 - What flopped: festival greetings (2–4 reach) and early-morning carousels (7:24 AM). Keyword comments: still 0, so lead with save/share.
 
 ## Plan for today (2026-11-21)
+- Slot B check (18:30 IST): Slot A rice-vs-roti carousel at ~5.5 h has 1 view, 1 reach, 0 shares, 0 saves (Windsor cache, may lag). Evening slot used for Tulsi Vivah greeting (festival day; Guruvayur Ekadashi also today).
 - Slot A 12:52: "Mummy says rice makes you fat?" (Indian food, home-voice hook), saveable "fat-loss rice plate" checklist, swap slide, save/share CTA first.
 - Added 2 topics from the top post's theme: "Gym daily but no muscle? 3 mistakes" and "How much protein do you need? (~grams in 5 Indian foods)". They come after chai.
 
