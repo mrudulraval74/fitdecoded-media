@@ -1,0 +1,132 @@
+{
+ "topic": "Is rice worse than roti for fat loss?",
+ "keyword": "RICE",
+ "slides": [
+  {
+   "type": "cover",
+   "photo": "FitDecoded_28.jpg",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "label": "MYTH OR FACT?",
+   "headline": "MUMMY SAYS RICE MAKES YOU *FAT?*",
+   "question": "Swipe to decode the truth >"
+  },
+  {
+   "type": "verdict",
+   "photo": "FitDecoded_39.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "verdict": "MYTH",
+   "headline": "Rice doesn't make you fat. *Portions do.*",
+   "stats": [
+    [
+     "bowl-rice",
+     "~130",
+     "kcal",
+     "100g cooked rice"
+    ],
+    [
+     "wheat-awn",
+     "~120",
+     "kcal",
+     "1 medium roti"
+    ]
+   ]
+  },
+  {
+   "type": "list",
+   "photo": "FitDecoded_04.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "label": "SAVE THIS",
+   "headline": "Build a fat-loss *rice plate:*",
+   "items": [
+    [
+     "bowl-rice",
+     "1 Katori Rice",
+     "~150g cooked, ~190 kcal."
+    ],
+    [
+     "bowl-food",
+     "1 Katori Dal",
+     "Adds ~7g protein + fibre."
+    ],
+    [
+     "carrot",
+     "Half Plate Sabzi",
+     "Fibre keeps you full longer."
+    ],
+    [
+     "cheese",
+     "Curd or Paneer",
+     "Extra protein for the meal."
+    ],
+    [
+     "person-walking",
+     "10-Min Walk",
+     "Easy movement after eating."
+    ]
+   ]
+  },
+  {
+   "type": "compare",
+   "photo": "FitDecoded_11.jpg",
+   "focus": [
+    0.5,
+    0.5
+   ],
+   "label": "DO THIS",
+   "headline": "Swap this *for that:*",
+   "rows": [
+    [
+     "2 plates plain rice",
+     "1 katori rice + dal"
+    ],
+    [
+     "Rice with papad, pickle",
+     "Rice with dal, sabzi"
+    ],
+    [
+     "Skip rice, eat biscuits",
+     "Eat rice, skip biscuits"
+    ],
+    [
+     "Nap right after lunch",
+     "Walk 10 min after"
+    ]
+   ]
+  },
+  {
+   "type": "truth",
+   "photo": "FitDecoded_29.jpg",
+   "focus": [
+    "1 katori rice per meal",
+    "Fill half the plate with sabzi",
+    "Add dal, curd or paneer"
+   ],
+   "truth": "Rice and roti both fit fat loss. Your portion and total day decide.",
+   "cta": "Comment \"RICE\" for my plate guide"
+  },
+  {
+   "type": "follow",
+   "photo": "FitDecoded_49.jpg",
+   "focus": [
+    0.5,
+    0.3
+   ],
+   "headline": "Stop fearing *Indian food.*",
+   "perks": [
+    "1 myth decoded every day",
+    "Indian food, real science",
+    "Simple, safe tips"
+   ],
+   "send": "Send this to a friend who quit rice for a month"
+  }
+ ]
+}
