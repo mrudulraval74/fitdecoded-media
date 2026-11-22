@@ -11,3 +11,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-20 | festival carousel | Dev Uthani (Prabodhini) Ekadashi greeting | 🙏 | 18115542371621392 | none (festival template)
 2026-11-21 | carousel | Is rice worse than roti for fat loss? (12:52 slot) | RICE | 18122979634766581 | FitDecoded_28, 39, 04, 11, 29, 49
 2026-11-21 | festival carousel | Tulsi Vivah greeting (18:22 slot) | 🙏 | 18214857658368004 | none (festival template)
+2026-11-22 | carousel | Going to the gym daily but no muscle? 3 mistakes (12:52 slot) | GROW | 18119206556591778 | FitDecoded_12, 09, 50, 22, 26, 42

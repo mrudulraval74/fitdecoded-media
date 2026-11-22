@@ -36,5 +36,4 @@
 - [ ] Sweating more = burning more fat? (MYTH) — keyword SWEAT
 - [ ] Belly looks bigger at night than in the morning? (normal bloating, FACT) — keyword BLOAT
 
-- [ ] Soreness the next day = good workout? (MYTH) — keyword SORE
 - [ ] Beginner muscle: how fast can you really gain? (~0.5-1 kg/month at start) — keyword GAIN
