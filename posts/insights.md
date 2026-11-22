@@ -34,6 +34,8 @@ Account: 0 comments in 30 days; followers_count = 3. Yesterday (11-21): 6 views,
 - Slot A: "Gym daily but no muscle?" (FACT, top theme), 6 slides, saveable 5-point muscle-growth checklist, Indian swap slide (chai-biscuit → poha + curd/eggs), send-to-gym-buddy CTA.
 - Added 2 topics from the top post's theme: soreness myth (SORE) and realistic beginner muscle gain (GAIN).
 
+- Slot B check (2026-11-22 18:30 IST, Windsor cache): today's Slot A "Gym daily but no muscle?" carousel at ~5.5 h: 6 views, 2 reach, 0 shares, 0 saves, 3 likes. Followers 4 (+1 vs yesterday's 3). Slot B posted the Pradosh Vrat greeting (festival rule).
+
 ## Best time (non-festival carousels/images only, IST, reach to date)
 | Time bucket | Posts | Avg reach |
 |---|---|---|
