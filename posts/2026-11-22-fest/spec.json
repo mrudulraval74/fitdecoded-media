@@ -1,0 +1,15 @@
+{
+  "festival": "Pradosh Vrat",
+  "greeting": "HAPPY PRADOSH VRAT",
+  "sub": "Peace, devotion and good health to your family",
+  "colors": ["#141033", "#7FB2FF"],
+  "icons": ["🙏", "🪔", "🌙"],
+  "tips_title": "FASTING? STAY STRONG",
+  "tips": [
+    ["💧", "Sip water or nimbu pani through the day"],
+    ["🍌", "Break the fast with fruit, curd or makhana"],
+    ["🚶", "Keep it light: a gentle evening walk"]
+  ],
+  "greeting_size": 120,
+  "greeting_y": 620
+}
