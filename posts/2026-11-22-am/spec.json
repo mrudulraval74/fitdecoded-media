@@ -1,0 +1,29 @@
+{
+ "topic": "Going to the gym daily but no muscle? 3 mistakes",
+ "keyword": "GROW",
+ "slides": [
+  {"type": "cover", "photo": "FitDecoded_12.jpg", "focus": [0.5, 0.25], "label": "MYTH OR FACT?",
+   "headline": "GYM DAILY BUT NO *MUSCLE?*", "question": "Swipe: 3 common mistakes >"},
+  {"type": "verdict", "photo": "FitDecoded_09.jpg", "focus": [0.5, 0.5], "verdict": "FACT",
+   "headline": "Training is half. *Food + sleep* do the rest.",
+   "stats": [["bed", "7-9", "hrs", "sleep per night (adults)"], ["dumbbell", "2x", "/week", "train each muscle"]]},
+  {"type": "list", "photo": "FitDecoded_50.jpg", "focus": [0.5, 0.5], "label": "SAVE THIS", "headline": "Your muscle-growth *checklist:*",
+   "items": [["arrow-trend-up", "Add Weight or Reps", "A little more every week."],
+             ["egg", "Protein Every Meal", "Dal, paneer, curd, eggs, soya."],
+             ["bed", "Sleep 7-9 Hours", "Muscle repairs while you sleep."],
+             ["calendar-check", "2x Per Muscle", "Train each muscle twice weekly."],
+             ["bowl-rice", "Eat Enough Food", "Too little food stalls growth."]]},
+  {"type": "compare", "photo": "FitDecoded_22.jpg", "focus": [0.5, 0.5], "label": "DO THIS", "headline": "Swap this *for that:*",
+   "rows": [["Same weight for months", "Add 1 rep or 2.5 kg"],
+            ["Chai-biscuit breakfast only", "Poha + curd or eggs"],
+            ["Sleeping at 2 AM", "Sleep 7-8 hours"],
+            ["Random workout daily", "Follow one simple plan"]]},
+  {"type": "truth", "photo": "FitDecoded_26.jpg",
+   "focus": ["Lift a little heavier over time", "Protein in every meal", "Sleep 7-8 hours"],
+   "truth": "Muscle grows from training, food and sleep, not from hours in the gym.",
+   "cta": "Comment \"GROW\" for my simple weekly plan"},
+  {"type": "follow", "photo": "FitDecoded_42.jpg", "focus": [0.5, 0.3], "headline": "Train *smarter*, not longer.",
+   "perks": ["1 myth decoded every day", "Indian food, real science", "Simple, safe tips"],
+   "send": "Send this to your gym buddy who's been stuck for months"}
+ ]
+}
