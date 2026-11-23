@@ -1,0 +1,29 @@
+{
+ "topic": "How much protein do you really need? (~grams in 5 Indian foods)",
+ "keyword": "GRAMS",
+ "slides": [
+  {"type": "cover", "photo": "FitDecoded_01.jpg", "focus": [0.5, 0.25], "label": "MYTH OR FACT?",
+   "headline": "DAL-ROTI GIVES ENOUGH *PROTEIN?*", "question": "Swipe: grams in 5 Indian foods >"},
+  {"type": "verdict", "photo": "FitDecoded_15.jpg", "focus": [0.5, 0.4], "verdict": "MYTH",
+   "headline": "Dal helps, but most of us *fall short.*",
+   "stats": [["user", "~0.8", "g/kg", "daily minimum for adults"], ["dumbbell", "~1.2-1.6", "g/kg", "if you lift regularly"]]},
+  {"type": "list", "photo": "FitDecoded_23.jpg", "focus": [0.5, 0.5], "label": "SAVE THIS", "headline": "Protein in *5 Indian foods:*",
+   "items": [["cheese", "100g Paneer", "~18g protein."],
+             ["seedling", "30g Soya Chunks", "~15g protein (dry weight)."],
+             ["bowl-food", "1 Katori Dal", "~7g protein (cooked)."],
+             ["egg", "1 Whole Egg", "~6g protein."],
+             ["jar", "1 Katori Curd", "~5g protein."]]},
+  {"type": "compare", "photo": "FitDecoded_14.jpg", "focus": [0.5, 0.5], "label": "DO THIS", "headline": "Swap this *for that:*",
+   "rows": [["Plain dal-roti lunch", "Dal-roti + curd or paneer"],
+            ["Chai-biscuit breakfast", "Besan chilla + curd"],
+            ["Namkeen evening snack", "Handful of roasted chana"],
+            ["Protein only at dinner", "Some protein every meal"]]},
+  {"type": "truth", "photo": "FitDecoded_33.jpg",
+   "focus": ["Protein in every meal", "Mix dal, curd, paneer, eggs", "Check your daily total"],
+   "truth": "You don't need a shake. Spread protein across every meal.",
+   "cta": "Comment \"GRAMS\" for my daily protein list"},
+  {"type": "follow", "photo": "FitDecoded_45.jpg", "focus": [0.5, 0.3], "headline": "Eat *smarter*, not just more.",
+   "perks": ["1 myth decoded every day", "Indian food, real science", "Simple, safe tips"],
+   "send": "Send this to a friend who lives on dal-roti"}
+ ]
+}
