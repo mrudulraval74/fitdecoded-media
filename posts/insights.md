@@ -34,6 +34,8 @@ Account: 0 comments in 30 days; followers_count = 4 (flat vs yesterday). Yesterd
 - Slot A: "Dal-roti gives enough protein?" (MYTH), 6 slides, saveable "~grams of protein in 5 Indian foods" list (paneer, soya, dal, egg, curd), Indian swap slide, send-to-a-dal-roti-friend CTA. Keyword GRAMS.
 - Added 2 topics from the top theme (muscle/protein): NIGHT (protein at night) and HOME (muscle at home, no weights).
 
+- Slot B check (18:27 IST): today's Slot A "Dal-roti enough protein?" has 2 views, 1 reach, 0 shares, 0 saves after ~5.5 h (Windsor cache). Slot B posted the Vaikuntha Chaturdashi greeting (festival rule), media 18142444201726378.
+
 ## Best time (non-festival carousels/images only, IST, reach to date)
 | Time bucket | Posts | Avg reach |
 |---|---|---|
