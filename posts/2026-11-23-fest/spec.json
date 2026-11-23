@@ -1,0 +1,15 @@
+{
+  "festival": "Vaikuntha Chaturdashi",
+  "greeting": "HAPPY VAIKUNTHA CHATURDASHI",
+  "sub": "Light, peace and good health to your family",
+  "colors": ["#1A1236", "#FFB347"],
+  "icons": ["🪔", "🙏", "✨"],
+  "tips_title": "FESTIVE & FIT TONIGHT",
+  "tips": [
+    ["💧", "Sip water or nimbu pani through the day"],
+    ["🍲", "Break any fast with dal, curd or fruit"],
+    ["🚶", "Take a 15-min walk after dinner"]
+  ],
+  "greeting_size": 100,
+  "greeting_y": 600
+}
