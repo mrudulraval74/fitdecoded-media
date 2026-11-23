@@ -7,8 +7,8 @@
 - [x] 2026-11-20 Lifting weights makes women bulky? (MYTH) — keyword STRONG
 - [x] Is rice worse than roti for fat loss? (MYTH) — keyword RICE (2026-11-21)
 - [x] 2026-11-22 (A) Going to the gym daily but no muscle? 3 mistakes (FACT: overload, protein, sleep) — keyword GROW
+- [x] 2026-11-23 (A) How much protein do you really need in a day? (~grams in 5 Indian foods) — keyword PROTEIN2
 - [ ] Chai with sugar 4 times a day adds up (FACT) — keyword CHAI
-- [ ] How much protein do you really need in a day? (~grams in 5 Indian foods) — keyword PROTEIN2
 - [ ] Your weight jumps after a cheat meal = fat gain? (MYTH, water + food weight) — keyword SCALE
 - [ ] Namkeen and biscuits are "light" snacks? (MYTH) — keyword SNACK
 - [ ] Paneer is a complete protein source? (FACT-ish, compare options) — keyword PANEER
@@ -37,3 +37,5 @@
 - [ ] Belly looks bigger at night than in the morning? (normal bloating, FACT) — keyword BLOAT
 
 - [ ] Beginner muscle: how fast can you really gain? (~0.5-1 kg/month at start) — keyword GAIN
+- [ ] Protein at night is wasted? (MYTH) — keyword NIGHT
+- [ ] Can beginners build muscle at home with no weights? (FACT) — keyword HOME

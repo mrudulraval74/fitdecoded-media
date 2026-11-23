@@ -13,3 +13,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-21 | festival carousel | Tulsi Vivah greeting (18:22 slot) | 🙏 | 18214857658368004 | none (festival template)
 2026-11-22 | carousel | Going to the gym daily but no muscle? 3 mistakes (12:52 slot) | GROW | 18119206556591778 | FitDecoded_12, 09, 50, 22, 26, 42
 2026-11-22 | festival carousel | Pradosh Vrat greeting (18:22 slot) | 🙏 | 18101078954437302 | none (festival template)
+2026-11-23 | carousel | Dal-roti gives enough protein? ~grams in 5 Indian foods (12:52 slot) | GRAMS | 18084640043392455 | FitDecoded_01, 15, 23, 14, 33, 45
