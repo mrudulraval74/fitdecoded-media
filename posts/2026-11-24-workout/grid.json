@@ -1,0 +1,9 @@
+{"title": "6 DUMBBELL *MOVES*", "sub": "For arms: biceps + triceps + forearms",
+ "moves": [
+  {"name": "Regular Curl", "grip": "Palms up", "anim": "curl", "map": "front", "muscles": ["biceps"]},
+  {"name": "Hammer Curl", "grip": "Thumbs up", "anim": "hammer", "map": "front", "muscles": ["biceps", "forearms"]},
+  {"name": "Reverse Curl", "grip": "Palms down", "anim": "reverse", "map": "front", "muscles": ["biceps", "forearms"]},
+  {"name": "Overhead Extension", "grip": "Elbows in", "anim": "overhead", "map": "back", "muscles": ["triceps"]},
+  {"name": "Triceps Kickback", "grip": "Hinge forward", "anim": "kickback", "map": "back", "muscles": ["triceps"]},
+  {"name": "Wrist Rotation", "grip": "Light weight", "anim": "wrist", "map": "front", "muscles": ["forearms"]}],
+ "dose": "3 sets x 10-12 reps each", "note": "Start light. Slow, controlled reps. Rest ~60 sec."}

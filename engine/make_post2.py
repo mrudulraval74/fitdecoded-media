@@ -157,7 +157,7 @@ def main():
     spec = json.load(open(sys.argv[1])); pre = sys.argv[2]
     slides = spec["slides"]; n = len(slides)
     for i, s in enumerate(slides, 1):
-        page = f"{i}/{n}"
+        off = spec.get("page_offset", 0); page = f"{i + off}/{n + off}"
         t = s["type"]
         img = (slide_cover(s) if t == "cover" else slide_verdict(s, page) if t == "verdict"
                else slide_list(s, page) if t == "list" else slide_compare(s, page) if t == "compare"

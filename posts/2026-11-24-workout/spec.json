@@ -1,0 +1,18 @@
+{"topic": "Workout series: 6 dumbbell moves for arms", "keyword": "ARMS", "page_offset": 1,
+ "slides": [
+  {"type": "list", "photo": "FitDecoded_03.jpg", "focus": [0.5, 0.5], "label": "HOW TO DO IT", "headline": "Biceps + *forearms:*",
+   "items": [["dumbbell", "01 Regular Curl", "Palms up, elbows pinned, no swing."],
+             ["thumbs-up", "02 Hammer Curl", "Thumbs up, curl to shoulder slowly."],
+             ["hand", "03 Reverse Curl", "Palms down, lighter weight, slow."]]},
+  {"type": "list", "photo": "FitDecoded_41.jpg", "focus": [0.5, 0.5], "label": "HOW TO DO IT", "headline": "Triceps + *wrists:*",
+   "items": [["arrow-up", "04 Overhead Extension", "Elbows point up, lower behind head."],
+             ["arrow-right", "05 Triceps Kickback", "Hinge, upper arm still, press back."],
+             ["rotate", "06 Wrist Rotation", "Elbows at 90°, rotate slowly."]]},
+  {"type": "truth", "photo": "FitDecoded_18.jpg",
+   "focus": ["Full range, slow reps", "Add 1 rep or a little weight weekly", "Protein + 7-9 h sleep"],
+   "truth": "Arms grow from controlled reps and slowly lifting more over time.",
+   "cta": "Comment \"ARMS\" for the weekly plan"},
+  {"type": "follow", "photo": "FitDecoded_47.jpg", "focus": [0.5, 0.4], "headline": "Train *smarter*, not just harder.",
+   "perks": ["1 animated workout every week", "1 myth decoded every day", "Simple, safe tips"],
+   "send": "Send this to your gym buddy who skips arm day"}
+ ]}
