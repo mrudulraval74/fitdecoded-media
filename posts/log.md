@@ -16,3 +16,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-23 | carousel | Dal-roti gives enough protein? ~grams in 5 Indian foods (12:52 slot) | GRAMS | 18084640043392455 | FitDecoded_01, 15, 23, 14, 33, 45
 2026-11-23 | festival carousel | Vaikuntha Chaturdashi greeting (18:22 slot) | 🙏 | 18142444201726378 | none (festival template)
 2026-11-24 | carousel | +2 kg after one cheat meal = fat gain? (12:52 slot, published 13:57 for 3-h gap after owner's Reel) | SCALE | 18041161787895933 | FitDecoded_30, 13, 32, 37, 44, 16
+2026-11-24 | workout series carousel (animated grid video + 4 slides) | #1 6 dumbbell moves for arms (owner asked to post now, 14:3x IST) | ARMS | 18131435758882193 | FitDecoded_03, 41, 18, 47 + animated grid
