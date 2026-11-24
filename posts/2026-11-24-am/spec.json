@@ -1,0 +1,29 @@
+{
+ "topic": "Weight jumps after a cheat meal = fat gain?",
+ "keyword": "SCALE",
+ "slides": [
+  {"type": "cover", "photo": "FitDecoded_30.jpg", "focus": [0.5, 0.3], "label": "MYTH OR FACT?",
+   "headline": "+2 KG AFTER ONE *CHEAT MEAL?*", "question": "Swipe: is it really fat? >"},
+  {"type": "verdict", "photo": "FitDecoded_13.jpg", "focus": [0.5, 0.4], "verdict": "MYTH",
+   "headline": "It's mostly *water*, not fat.",
+   "stats": [["droplet", "~3", "g water", "stored with each g of carbs"], ["fire", "~7700", "kcal", "extra to gain ~1 kg fat"]]},
+  {"type": "list", "photo": "FitDecoded_32.jpg", "focus": [0.5, 0.3], "label": "SAVE THIS", "headline": "Why the scale *jumps:*",
+   "items": [["bowl-rice", "Extra Carbs", "Each gram holds water."],
+             ["pepper-hot", "Salty Food", "Namkeen, pickle hold water."],
+             ["utensils", "Food in Gut", "Undigested food weighs too."],
+             ["dumbbell", "Hard Workout", "Sore muscles hold water."],
+             ["venus", "Monthly Cycle", "Normal water shifts."]]},
+  {"type": "compare", "photo": "FitDecoded_37.jpg", "focus": [0.5, 0.5], "label": "DO THIS", "headline": "Swap this *for that:*",
+   "rows": [["Panic and skip meals", "Eat normally next day"],
+            ["Weigh right after a feast", "Weigh mornings, after loo"],
+            ["Only chai, no food", "Dal, sabzi, curd meals"],
+            ["Judge one day's number", "Track the weekly average"]]},
+  {"type": "truth", "photo": "FitDecoded_44.jpg",
+   "focus": ["Weigh at the same time", "Water + a daily walk", "Weekly average wins"],
+   "truth": "One cheat meal can't add 2 kg of fat. Most of it is water.",
+   "cta": "Comment \"SCALE\" for my weigh-in checklist"},
+  {"type": "follow", "photo": "FitDecoded_16.jpg", "focus": [0.5, 0.3], "headline": "Trust the *trend*, not one day.",
+   "perks": ["1 myth decoded every day", "Indian food, real science", "Simple, safe tips"],
+   "send": "Send this to a friend who panics on the scale"}
+ ]
+}
