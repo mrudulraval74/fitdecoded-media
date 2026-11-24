@@ -1,0 +1,15 @@
+{
+  "festival": "Guru Nanak Jayanti",
+  "greeting": "HAPPY GURPURAB",
+  "sub": "Wishing you peace, gratitude and good health",
+  "colors": ["#0E1A3A", "#FF9933"],
+  "icons": ["🙏", "🪔", "✨"],
+  "tips_title": "FESTIVE & FIT TODAY",
+  "tips": [
+    ["🍲", "Enjoy langar slowly, stop when 80% full"],
+    ["💧", "Sip water between kada prasad and sweets"],
+    ["🚶", "Walk to the gurudwara or after dinner"]
+  ],
+  "greeting_size": 110,
+  "greeting_y": 600
+}
