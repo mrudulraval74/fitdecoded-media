@@ -25,7 +25,7 @@ Phase: EXPLORE (started 2026-11-20)
 | 2026-11-21 | A | 12:54 (actual IG time) | Rice vs roti | 2 |
 | 2026-11-22 | A | 12:55 (actual IG time; trigger still 12:52, 15:22 change never applied) | Gym daily but no muscle | 3 |
 | 2026-11-23 | A | 12:55 (actual IG time; 15:22 change never applied) | Dal-roti enough protein? | 2 |
-| 2026-11-24 | A | ~14:00 (trigger 12:52; held for 3-h gap after owner's 10:55 Reel) | +2 kg after cheat meal? | (pending) |
+| 2026-11-24 | A | 13:57 (trigger 12:52; held for 3-h gap after owner's 10:55 Reel) | +2 kg after cheat meal? | (pending) |
 | 2026-11-21 | B | 18:25 (actual IG time) | Tulsi Vivah greeting (festival) | not counted (festival; 2) |
 | 2026-11-22 | B | 18:24 (actual IG time) | Pradosh Vrat greeting (festival) | not counted (festival; 4) |
 | 2026-11-23 | B | 18:27 (actual IG time; 20:22 change never applied) | Vaikuntha Chaturdashi greeting (festival) | not counted (festival; 3) |

@@ -32,7 +32,7 @@ Note: the owner posted a Reel at 10:55 IST today, so today's Slot A carousel wai
 - What flopped: festival greetings (2–5 reach), protein/rice carousels on the 12:52 slot (2 reach each), keyword-comment CTAs (0 comments ever).
 
 ## Plan for today (2026-11-24)
-- Slot A: "+2 KG AFTER ONE CHEAT MEAL?" (MYTH), 6 slides: water-not-fat verdict (~3 g water per g carbs, ~7700 kcal ≈ 1 kg fat), saveable "Why the scale jumps" 5-reason list, Indian swap slide, weekly-average truth, "send to a friend who panics on the scale" CTA. Keyword SCALE. Posted ~14:00 IST (1–4 PM bucket, which currently leads).
+- Slot A: "+2 KG AFTER ONE CHEAT MEAL?" (MYTH), 6 slides: water-not-fat verdict (~3 g water per g carbs, ~7700 kcal ≈ 1 kg fat), saveable "Why the scale jumps" 5-reason list, Indian swap slide, weekly-average truth, "send to a friend who panics on the scale" CTA. Keyword SCALE. Posted 13:57 IST (1–4 PM bucket, which currently leads).
 
 ## Best time (non-festival carousels/images only, IST, reach to date)
 | Time bucket | Posts | Avg reach |
