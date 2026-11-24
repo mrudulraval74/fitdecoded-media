@@ -23,6 +23,10 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 ## Owner rule: NO REELS
 The owner wants **image posts only** (carousels / single images). Never publish a Reel or video. Both daily slots (12:52 PM and 6:22 PM IST; the first slot moved from 7:22 AM on 2026-11-20 after a timing review) post image carousels on different topics; festival days use the festival post in the evening slot. The Reel section below is kept for reference only.
 
+## Exercise steps (owner request 2026-11-24)
+- On WORKOUT topics only (gym, home workout, muscle building, form, cardio, warm-up, soreness, rest; NOT food/diet topics), add exercise detail: in the caption, a "🏋️ Try this:" block with 3 exercises, each with sets x reps and 2-3 short form steps, plus the main muscles worked.
+- Exercise demo series (PROTOTYPE, not live yet): `engine/make_exercise.py` renders an animated demo slide (looping MP4 + still JPG) showing the movement, the target-muscle chips and numbered steps. Sample: `posts/sample-exercise/`. Do not publish it until the owner approves the format (Instagram takes no GIFs; animated slides would go as MP4 items inside a carousel, which is not a Reel).
+
 ## Visual style (v2 — always use this)
 The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heavy italic headlines with one lime highlight word, lime icon circles, glassy HUD stat cards, FitDecoded logo. Use ONLY the v2 renderers below with photos from `library/`.
 
