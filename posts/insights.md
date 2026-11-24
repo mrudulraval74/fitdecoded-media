@@ -26,6 +26,8 @@ Median score 11. Flops (< 6): festival greetings, "Women lifting bulky?", "Mummy
 Account: 0 comments in 7 days; followers_count = 4. Yesterday (11-23): 155 views, 135 reach (151 non-follower views — almost all from the owner's new Reel "Lifting weights makes women bulky?", 158 views so far).
 Note: the owner posted a Reel at 10:55 IST today, so today's Slot A carousel waited until ≥ 13:56 IST (3-hour feed gap rule).
 
+- Slot B check (18:28 IST): Slot A "+2 kg after cheat meal" carousel at ~4.5 h: 5 views, 1 reach, 0 shares, 0 saves. Workout series #1 (arms grid): 0 views yet (cache). Owner's 10:55 Reel: 202 views, 177 reach. Slot B today = Guru Nanak Jayanti greeting (festival).
+
 ## Learnings
 - Best carousel theme: the weighing scale / overnight weight post (score 26, 4 shares) — top carousel by score. Today's topic follows it: "+2 kg after one cheat meal?".
 - Reels are still the only thing that reaches non-followers (100–170 reach each vs 2–6 for carousels). Every carousel since 11-20 has reached only 2–4 accounts with 0 shares.

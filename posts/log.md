@@ -17,3 +17,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-23 | festival carousel | Vaikuntha Chaturdashi greeting (18:22 slot) | 🙏 | 18142444201726378 | none (festival template)
 2026-11-24 | carousel | +2 kg after one cheat meal = fat gain? (12:52 slot, published 13:57 for 3-h gap after owner's Reel) | SCALE | 18041161787895933 | FitDecoded_30, 13, 32, 37, 44, 16
 2026-11-24 | workout series carousel (animated grid video + 4 slides) | #1 6 dumbbell moves for arms (owner asked to post now, 14:3x IST) | ARMS | 18131435758882193 | FitDecoded_03, 41, 18, 47 + animated grid
+2026-11-24 | festival carousel | Guru Nanak Jayanti / Gurpurab greeting (18:22 slot, published ~18:28) | 🙏 | 18350452993267847 | none (festival template)
