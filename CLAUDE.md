@@ -116,4 +116,4 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 ## Daily update (to the owner's phone)
 After posting, pull yesterday's account insights (views, reach, likes, comments, shares, saves, follower_count / followers_count) and the latest posts' media_views/media_reach, and send ONE short push notification + final message:
 "✅ Posted: <topic> (<format>) · Yesterday: <views> views, <reach> reach, +<new> followers (total <n>), <comments> comments · Best post this week: <topic> (<views> views) · Replied to <k> comments · Insight: <one learning from insights.md>."
-If anything failed (render, push, publish), say exactly what failed and do not retry publishing more than once.
+If anything failed (render, push, publish), say exactly what failed and do not retry publishing more than once. Before any retry after a publish error (e.g. Instagram 'Application request limit reached'), pull the latest media via Windsor: on 2026-11-25 both 'failed' calls had actually published, creating a duplicate.
