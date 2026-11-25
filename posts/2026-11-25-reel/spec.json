@@ -1,0 +1,10 @@
+{"hook_photo": "FitDecoded_02.jpg", "focus": [0.5, 0.3], "label": "NO GYM NEEDED", "hook": "6 MOVES FOR *STRONGER LEGS*", "hook_sub": "Ghar pe hi karo. Save it!",
+ "outro_photo": "FitDecoded_45.jpg",
+ "moves": [
+  {"name": "Bodyweight *Squat*", "anim": "squat", "targets": ["Quads", "Glutes"], "cues": ["Feet shoulder-width, chest up", "Sit back like a chair, heels down"], "reps": "12 reps"},
+  {"name": "Static *Lunge*", "anim": "lunge", "targets": ["Quads", "Glutes"], "cues": ["Feet split, drop the back knee down", "Front knee stays over the foot"], "reps": "10 reps each leg"},
+  {"name": "Glute *Bridge*", "anim": "bridge", "targets": ["Glutes", "Hamstrings"], "cues": ["Lie down, feet flat, knees bent", "Push through heels, squeeze at top"], "reps": "15 reps"},
+  {"name": "Calf *Raise*", "anim": "calf", "targets": ["Calves"], "cues": ["Rise onto your toes, pause 1 sec", "Lower slowly, hold a wall for balance"], "reps": "15 reps"},
+  {"name": "Wall *Sit*", "anim": "wallsit", "targets": ["Quads", "Glutes"], "cues": ["Back flat against the wall", "Knees about 90°, keep breathing"], "reps": "Hold 20-30 sec"},
+  {"name": "Donkey *Kick*", "anim": "donkey", "targets": ["Glutes"], "cues": ["Hands and knees, back flat", "Kick heel to the ceiling, no arching"], "reps": "12 reps each leg"}],
+ "outro": "Do *3 rounds*", "outro_sub": "Rest ~60 sec between rounds", "send": "Send this to your leg-day buddy"}
