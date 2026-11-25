@@ -36,7 +36,7 @@ The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heav
 - Use a different photo for each scene/slide where possible, and avoid the photos used in the last 3 posts (check `posts/log.md`, which records the photos used).
 - `focus` [x, y] (0-1) shifts the crop: y≈0.2 keeps faces/upper body, 0.5 centres.
 - If the owner adds more images to `library/`, add them to `index.json` with tags.
-- Exercise video clips (owner's animated workout bundle, added 2026-11-25) are NOT in git: they are GitHub Release assets (`videos-men-*`, `videos-girl-*`), listed in `library/videos.json` (exercise name, category, public `url`). Re-import with the "Import exercise videos from Google Drive" Action. Use them only where video is allowed (weekly workout series); the NO REELS rule still applies.
+- Exercise video clips (owner's animated workout bundle, added 2026-11-25) are NOT in git: they are GitHub Release assets (`videos-men-*`, `videos-girl-*`), listed in `library/videos.json` (exercise name, category, public `url`). Re-import with the "Import exercise videos from Google Drive" Action. Use them only where video is allowed: the weekly workout series and the daily exercise Reel (owner-approved 2026-11-25, see `posts/reels.md`, scheduled task "FitDecoded daily exercise Reel", 9:07 AM IST except Tuesdays).
 
 ### Accuracy
 Every number (protein grams, calories, hormone ratios) must be a well-established approximate value; round and prefix "~". If unsure, leave the number out. No medical claims.
