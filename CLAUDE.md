@@ -20,9 +20,24 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 - If fewer than 10 `[ ]` remain, append 20 new fresh topics in the same style (myths, facts, Indian diet, beginner gym, home workouts, recovery, sleep, protein, supplements). Never repeat a topic already in `posts/log.md`.
 - Optionally use last 7 days' insights (see "Daily update") to lean toward the themes that got the most reach.
 
-## Owner rule: NO REELS
-Exception (owner, 2026-11-25): original exercise Reels made with `engine/make_exercise_reel.py` (our own drawn animations; example `posts/2026-11-25-reel/`) are allowed. Never post clips downloaded from other creators (e.g. the Drive folder 1dQhb6Ss5-VM9P82DTZtNX6M2l_2qHHjz is all from one other creator's account): use them only as exercise ideas.
-The owner wants **image posts only** (carousels / single images). Never publish a Reel or video. Both daily slots (12:52 PM and 6:22 PM IST; the first slot moved from 7:22 AM on 2026-11-20 after a timing review) post image carousels on different topics; festival days use the festival post in the evening slot. The Reel section below is kept for reference only.
+## Viral plan (owner-approved 2026-11-25: "make it work, review daily and modify it to post better/viral") — overrides older rules below
+Data (Nov 12–25): Reels 100–205 views each, ~90% non-followers; carousels 1–6 reach; festival posts 1–5; 0 comments ever on "Comment KEYWORD"; followers flat at 4. Reels are the discovery engine, so:
+- **9:07 AM (not Tue): exercise Reel** — 6 bundle clips, spec `"pace": "fast", "music": true` (~21 s), `engine/make_exercise_reel.py`, `posts/reels.md`. Tue 9:37 AM: weekly workout series (`posts/series.md`).
+- **12:52 PM: myth-busting Reel** (`engine/render_reel2.py`, ~15 s, see "Building a myth Reel"). Topic from `topics.md`, relatable Indian-food / gym-problem myths first. Folder `posts/DATE-am/`.
+- **6:22 PM: only if useful** — a MAJOR festival (list in the festival section) → festival greeting; else Mon/Wed/Fri → one saveable list carousel (6 slides); other days → post nothing (log "skipped").
+- Hook in the first second: the first frame already shows the bold question. Questions naming a real problem ("Gym daily but no muscle?" got 106 shares) beat general facts.
+- CTA: no "Comment KEYWORD". Ask a one-word-answer question ("RICE or ROTI?") and say "I reply to every comment". Keep "save this" + "send to a friend who …".
+- Captions: first line = the hook; under ~1200 characters; 5–8 hashtags.
+- Never post clips downloaded from other creators (e.g. Drive folder 1dQhb6Ss5-VM9P82DTZtNX6M2l_2qHHjz): ideas only. Music: only our own generated beat.
+- Owner's manual part (remind in the Monday daily update): reply to comments fast, comment on 10–15 bigger Indian fitness accounts daily, add a trending sound in the app when possible, look for collab partners (create_* actions accept `collaborators`).
+
+## Daily growth review + self-tuning (12:52 run, every day)
+After the data review, write a "Tuning" block in posts/insights.md and apply it to the next posts (keep changes small, one at a time, and log them in `posts/tuning.md` with date, change, reason, and the metric to check):
+- Compare Reels with Reels: avg views, reach, shares, saves, follows over the last 7 days vs the 7 before. Followers trend from account data.
+- Best/worst 3 Reels: what hook wording, topic theme, length, first-scene photo they had. Lean the next topics and hooks toward the winners; stop a hook style that lands below half the median.
+- Length test: if Reels under 16 s average more views than longer ones, keep short; otherwise try +3 s. Exercise Reels: try 5 vs 6 moves when views stall for 5 days.
+- If 7-day follows = 0 and views fall 2 weeks in a row, change one bigger thing (new hook format, new cover style, or different topic theme) and say so in the notification.
+- Never break safety/accuracy rules or the no-downloaded-clips rule to chase views.
 
 ## Exercise steps (owner request 2026-11-24)
 - On WORKOUT topics only (gym, home workout, muscle building, form, cardio, warm-up, soreness, rest; NOT food/diet topics), add exercise detail: in the caption, a "🏋️ Try this:" block with 3 exercises, each with sets x reps and 2-3 short form steps, plus the main muscles worked.
@@ -41,7 +56,8 @@ The owner's brand look: dark gym photos, lime (#C5F536) paint-brush labels, heav
 ### Accuracy
 Every number (protein grams, calories, hormone ratios) must be a well-established approximate value; round and prefix "~". If unsure, leave the number out. No medical claims.
 
-## Building a Reel (NOT USED — owner wants images only)
+## Building a myth Reel (12:52 slot)
+Structure (~15 s): hook 2.0 → reveal 2.2 → explain 3.6 (0-2 HUD stats) → list 4.2 (3 items) → cta 2.8 with `head` + `tag` question (e.g. head "COMMENT YOUR PICK", tag "RICE or ROTI?", body "I reply to *every* comment"). Skip the quiz scene. Publish with create_video_post, `cover_url` = cover.jpg, share_to_feed true. Older notes:
 1. Write `posts/YYYY-MM-DD/spec.json` in the format of `engine/render_reel2.py` docstring (example: `posts/sample-v2/reel_spec.json`). Proven structure (22–26 s):
    hook (2.8s) → quiz (3.2s, seconds 3) → reveal (2.8s, MYTH or FACT) → explain (4.2s, 0-2 HUD stats) → list (5s, 3 items with Font Awesome icons) → cta (3.6s, one-word KEYWORD).
    - Headlines short; mark ONE key word with *stars* for lime. Hook headline ≤ 5 words. Item titles ≤ 3 words, descriptions ≤ 6 words.
@@ -51,12 +67,12 @@ Every number (protein grams, calories, hormone ratios) must be a well-establishe
 2. Render: `cd engine && python3 render_reel2.py ../posts/DATE/spec.json ../posts/DATE/reel.mp4 ../posts/DATE/cover.jpg`
 3. Check: extract 6 frames with ffmpeg, make a contact sheet, and look at it. Fix any text overflow/overlap and re-render.
 
-## Building a carousel (both daily posts)
+## Building a carousel (6:22 PM, Mon/Wed/Fri only)
 Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstring (example: `posts/sample-v2/spec.json`): **6 slides**: cover → verdict (with 1-2 HUD stats) → list (3-5 icon rows, saveable checklist/numbers) → compare (3-4 DON'T → DO swap rows with Indian food/habits, each side ≤ 5 words) → truth (truth box, 3 focus points, comment CTA) → follow (headline, 3 perks, "Send this to a friend who …" line). More slides = more swipe time, and Instagram re-shows unseen slides to people who didn't swipe, giving each post a second chance in feed. Render with
 `cd engine && python3 make_post2.py ../posts/DATE-pm/spec.json ../posts/DATE-pm/slide` → slide_1.jpg … Look at the slides before posting. Use a different topic from the morning Reel.
 
 ## Festival posts (evening slot)
-- Every evening run, check whether TODAY (Asia/Calcutta date) has ANY festival, holiday or observance in **India or the USA**, big or small, using WebSearch (e.g. "festivals today <date> India", "holidays observances <date> USA", "Hindu festival <date>"). The owner wants all of them, not only the big ones. Include:
+- UPDATED 2026-11-25 (owner-approved): only MAJOR days get a festival post (small ones got 1–5 views): Diwali (main day), Holi, Eid al-Fitr, Eid al-Adha, Christmas, New Year, Republic Day, Independence Day, Raksha Bandhan, Ganesh Chaturthi, Navratri start, Dussehra, Janmashtami, Maha Shivratri, Guru Nanak Jayanti, Makar Sankranti/Pongal/Lohri, Onam, International Yoga Day, World Health Day, Women's Day, Men's Day. Confirm the date by WebSearch; never guess. The old list below is reference only:
   - All religious/cultural festivals of every community in India, including regional ones (e.g. Guru Nanak Jayanti, Chhath, Lohri, Bihu, Onam, Pongal, Ugadi, Baisakhi, Ganesh Chaturthi, Navratri days, Diwali days, Eid, Muharram, Christmas, Buddha Purnima, Mahavir Jayanti, Parsi New Year, Ekadashi-type big observances, Teej, Karva Chauth, Raksha Bandhan, Janmashtami, Holi, Maha Shivratri).
   - Indian national days (Republic Day, Independence Day, Gandhi Jayanti, Children's Day, Teachers' Day, National Sports Day Aug 29, etc.).
   - USA holidays and observances (New Year, MLK Day, Valentine's Day, St. Patrick's Day, Easter, Mother's Day, Memorial Day, Father's Day, Juneteenth, July 4, Labor Day, Halloween, Veterans Day, Thanksgiving, Black Friday, Hanukkah, Christmas, Kwanzaa, etc.).
@@ -74,7 +90,7 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 2. Public URL pattern: `https://raw.githubusercontent.com/mrudulraval74/fitdecoded-media/main/posts/<folder>/<file>` — confirm it returns HTTP 200 with curl before posting.
 3. Reel: Windsor `execute_action` → `create_video_post` with `video_url`, `share_to_feed: true`, `thumb_offset: 1500`, caption.
    Carousel: `create_carousel_post` with the slide URLs in order and caption.
-4. Caption format: hook line with emoji → "MYTH or FACT?" teaser → 4–6 short emoji lines of value → 3 action steps → `🔖 Save this for later & 📤 send it to a friend who <relatable situation>` (primary CTA) → `💬 Comment "KEYWORD" and I'll ...` → a question that invites a reply → follow line → tagline → 8–10 hashtags, every one starting with # (#FitDecoded first).
+4. Caption format: hook line with emoji → "MYTH or FACT?" teaser → 4–6 short emoji lines of value → 3 action steps → `🔖 Save this for later & 📤 send it to a friend who <relatable situation>` (primary CTA) → a one-word-answer question + "I reply to every comment 💬" (no keyword CTA) → follow line → tagline → 8–10 hashtags, every one starting with # (#FitDecoded first).
 5. Append to `posts/log.md`: `date | reel/carousel | topic | KEYWORD | media id | photos used`. Commit + push.
 
 ## Replying to comments (engagement)
@@ -94,7 +110,7 @@ Write `posts/DATE-pm/spec.json` in the format of `engine/make_post2.py` docstrin
 2. Score each post: `score = reach + 5*shares + 5*saves + 10*follows + 3*comments + 3*profile_visits` (skip posts < 24 h old). Match media_id to topics via `posts/log.md`.
 3. Rewrite `posts/insights.md`: date of review, a table of the last 14 posts (date, topic, views, reach, shares, saves, follows, score) sorted by score, then 3 short bullet learnings (best theme, best cover style, what flopped) and the plan for today.
 4. Use it: if a theme (e.g. Indian food, weight-scale, protein) is in the top 3 by score, pick the next `[ ]` topic in that theme today (move it to the front of topics.md). If a post format/hook clearly flopped (score < half the median), don't repeat that hook style. Add 1-2 new topics inspired by the top post when the bank allows.
-5. Timing: convert each post's timestamp to IST and add a "Best time" table to insights.md: time bucket (7–10 AM, 10 AM–1 PM, 1–4 PM, 4–7 PM, 7–10 PM, 10 PM+), number of carousels, average reach after 24 h. Compare carousels only with carousels (Reels and festival posts behave differently). Once a bucket has ≥ 5 carousels and its average reach is ≥ 1.5× the current slot's, recommend the change in the owner's notification (do not change the schedule yourself).
+5. Timing: convert each post's timestamp to IST and add a "Best time" table to insights.md: time bucket (7–10 AM, 10 AM–1 PM, 1–4 PM, 4–7 PM, 7–10 PM, 10 PM+), number of carousels, average reach after 24 h. Compare like with like: Reels with Reels, carousels with carousels (festival posts excluded). Once a bucket has ≥ 5 carousels and its average reach is ≥ 1.5× the current slot's, recommend the change in the owner's notification (do not change the schedule yourself).
 6. Commit `posts/insights.md` with the post.
 
 ## Daily update (to the owner's phone)
