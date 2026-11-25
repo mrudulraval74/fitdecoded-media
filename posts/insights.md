@@ -31,7 +31,7 @@ Account: 0 comments in 7 days; followers_count = 4. Yesterday (11-24): 46 views,
 - What flopped (score < half the median): the "+2 kg cheat meal" carousel and the arms grid (1 reach each, both posted the same day as an owner Reel), festival greetings, keyword CTAs (0 comments ever).
 
 ## Plan for today (2026-11-25)
-- Slot A: "4 CHAI A DAY IS HARMLESS?" (MYTH: chai is fine, sugar adds up). Verdict stats ~16 kcal/tsp, ~900 kcal/week; list = sugar math per tsp/cup/day/week; swaps (half spoon, roasted chana, smaller cups); keyword CHAI. Published after 15:50 IST because of the owner's Reel.
+- Slot A: "4 CHAI A DAY IS HARMLESS?" (MYTH: chai is fine, sugar adds up). Verdict stats ~16 kcal/tsp, ~900 kcal/week; list = sugar math per tsp/cup/day/week; swaps (half spoon, roasted chana, smaller cups); keyword CHAI. Held to 16:10 IST (owner's Reels at 12:49 and 13:10). NOT published: create_carousel_post failed twice with Instagram 'Application request limit reached' (likely too many API publishes today). Slides were switched to the new question CTA (no keyword) per the updated playbook.
 
 ## Best time (non-festival carousels/images only, IST, reach to date)
 | Time bucket | Posts | Avg reach |
