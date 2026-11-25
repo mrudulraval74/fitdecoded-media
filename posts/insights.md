@@ -25,6 +25,8 @@ Score = reach + 5×shares + 5×saves + 10×follows + 3×comments + 3×profile vi
 Median score 3.5. Older top carousels (outside the 14): Weight up overnight? 26 (4 shares), Ghee makes you fat? 22 (2 shares, 2 profile visits), Crunches belly fat 16.
 Account: 0 comments in 7 days; followers_count = 4. Yesterday (11-24): 46 views, 33 reach, 38 non-follower views. The owner's legs Reel went out at 12:49 IST today, so today's Slot A carousel waits until ≥ 15:50 IST (3-hour gap).
 
+- Slot B check 18:25 IST: today's Reels — Legs 160 views / 151 reach / 6 shares / 0 saves; Chest 163 views / 145 reach / 18 shares / 0 saves. Chai carousel (posted twice): 5+7 views, 3+3 reach, 4+3 shares, 1 comment. The 'Application request limit reached' error did NOT stop publishing — never retry a carousel without first checking the latest media.
+
 ## Learnings
 - Best carousel themes over 30 days: weighing scale (26), ghee / Indian food (22), veg protein (16). Today follows the Indian food + numbers angle: "4 chai a day is harmless?" with a saveable sugar-math list.
 - Reels (owner's and ours) are still the only reach engine: 100–180 reach each vs 1–6 for carousels. Every carousel since 11-20 has 0 shares and ≤ 4 reach.
