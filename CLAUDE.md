@@ -21,6 +21,7 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 - Optionally use last 7 days' insights (see "Daily update") to lean toward the themes that got the most reach.
 
 ## Owner rule: NO REELS
+Exception (owner, 2026-11-25): original exercise Reels made with `engine/make_exercise_reel.py` (our own drawn animations; example `posts/2026-11-25-reel/`) are allowed. Never post clips downloaded from other creators (e.g. the Drive folder 1dQhb6Ss5-VM9P82DTZtNX6M2l_2qHHjz is all from one other creator's account): use them only as exercise ideas.
 The owner wants **image posts only** (carousels / single images). Never publish a Reel or video. Both daily slots (12:52 PM and 6:22 PM IST; the first slot moved from 7:22 AM on 2026-11-20 after a timing review) post image carousels on different topics; festival days use the festival post in the evening slot. The Reel section below is kept for reference only.
 
 ## Exercise steps (owner request 2026-11-24)
