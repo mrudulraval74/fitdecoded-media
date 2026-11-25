@@ -1,0 +1,28 @@
+{
+ "topic": "Chai with sugar 4 times a day adds up",
+ "keyword": "CHAI",
+ "slides": [
+  {"type": "cover", "photo": "FitDecoded_20.jpg", "focus": [0.5, 0.4], "label": "MYTH OR FACT?",
+   "headline": "4 CHAI A DAY IS *HARMLESS?*", "question": "Swipe: the sugar math >"},
+  {"type": "verdict", "photo": "FitDecoded_25.jpg", "focus": [0.5, 0.4], "verdict": "MYTH",
+   "headline": "Chai is fine. The *sugar* adds up.",
+   "stats": [["cubes", "~16", "kcal", "in 1 tsp sugar"], ["calendar-week", "~900", "kcal", "a week from 8 tsp a day"]]},
+  {"type": "list", "photo": "FitDecoded_38.jpg", "focus": [0.5, 0.4], "label": "SAVE THIS", "headline": "Your chai *sugar math:*",
+   "items": [["spoon", "1 Teaspoon", "~4 g sugar, ~16 kcal."],
+             ["mug-hot", "1 Cup", "2 tsp = ~32 kcal."],
+             ["cubes", "4 Cups a Day", "~8 tsp, ~32 g sugar."],
+             ["cookie-bite", "Plus 2 Biscuits", "Each cup adds ~50 kcal."],
+             ["calendar-week", "1 Week", "~900 kcal from sugar."]]},
+  {"type": "compare", "photo": "FitDecoded_33.jpg", "focus": [0.5, 0.5], "label": "DO THIS", "headline": "Swap this *for that:*",
+   "rows": [["2 spoons sugar per cup", "Half spoon, cut slowly"],
+            ["Chai with 4 biscuits", "Chai with roasted chana"],
+            ["4 big cups daily", "2 small cups daily"],
+            ["Sugar-loaded tapri chai", "Ask for less sugar"]]},
+  {"type": "truth", "photo": "FitDecoded_28.jpg", "focus": ["Cut sugar slowly", "Fewer, smaller cups", "Protein snack, not biscuits"],
+   "truth": "You don't have to quit chai. Just cut the sugar.",
+   "cta": "Comment \"CHAI\" for my low-sugar chai tips"},
+  {"type": "follow", "photo": "FitDecoded_11.jpg", "focus": [0.5, 0.4], "headline": "Keep the chai, *lose the sugar.*",
+   "perks": ["1 myth decoded every day", "Indian food, real science", "Simple, safe tips"],
+   "send": "Send this to your chai-every-2-hours friend"}
+ ]
+}
