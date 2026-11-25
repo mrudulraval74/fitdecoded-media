@@ -1,0 +1,10 @@
+{"hook_photo": "FitDecoded_22.jpg", "focus": [0.5, 0.4], "label": "HOME + DUMBBELLS", "hook": "6 MOVES FOR A *STRONGER CHEST*", "hook_sub": "Beginner to pro. Save it!",
+ "outro_photo": "FitDecoded_42.jpg", "save": "for your next chest day",
+ "moves": [
+  {"name": "Incline *Push-up*", "clip": "/tmp/claude-0/clips/incline-push-ups.mp4", "targets": ["Chest", "Triceps"], "cues": ["Hands on a bench or bed edge", "Body in one straight line"], "reps": "12 reps"},
+  {"name": "*Push-up*", "clip": "/tmp/claude-0/clips/push-ups.mp4", "targets": ["Chest", "Shoulders", "Triceps"], "cues": ["Hands a bit wider than shoulders", "Chest close to floor, elbows ~45°"], "reps": "8-12 reps"},
+  {"name": "Wide Grip *Push-up*", "clip": "/tmp/claude-0/clips/wide-grip-push-ups.mp4", "targets": ["Chest", "Shoulders"], "cues": ["Hands wider apart, fingers forward", "Lower slowly, no sagging hips"], "reps": "8-10 reps"},
+  {"name": "Dumbbell *Press*", "clip": "/tmp/claude-0/clips/dumbbell-bench-press.mp4", "targets": ["Chest", "Triceps"], "cues": ["Feet flat, shoulder blades pulled back", "Press up, lower to chest level"], "reps": "10-12 reps"},
+  {"name": "Incline DB *Press*", "clip": "/tmp/claude-0/clips/dumbbell-incline-bench-press.mp4", "targets": ["Upper Chest", "Shoulders"], "cues": ["Bench at a low incline", "Press up and slightly in"], "reps": "10-12 reps"},
+  {"name": "Dumbbell *Fly*", "clip": "/tmp/claude-0/clips/dumbbell-fly.mp4", "targets": ["Chest"], "cues": ["Soft bend in the elbows", "Open wide, hug back up, go light"], "reps": "10-12 reps"}],
+ "outro": "Do *3 sets* each", "outro_sub": "Rest ~60-90 sec between sets", "send": "Send this to your gym buddy who skips chest day"}

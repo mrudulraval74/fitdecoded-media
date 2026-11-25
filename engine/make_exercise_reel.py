@@ -9,6 +9,7 @@ Spec:
  "moves": [{"name": "Bodyweight Squat", "anim": "squat", "targets": ["Quads", "Glutes"], "cues": ["...", "..."], "reps": "12 reps"}, ...],
  "outro": "Do *3 rounds*", "outro_sub": "Rest ~60 sec between rounds", "send": "Send this to your leg-day buddy"
 }
+Instead of "anim", a move may give "clip": path to an exercise clip (licensed bundle, library/videos.json).
 anim: squat | lunge | bridge | calf | wallsit | donkey
 """
 import json, math, subprocess, sys
@@ -148,9 +149,12 @@ def move_static(m, i, n):
     chips(img, m["targets"], 64, y + 24)
     top = y + 130
     d = ImageDraw.Draw(img)
-    d.rounded_rectangle([60, top, W - 60, top + 760], radius=34, fill=(20, 25, 28, 235), outline=(60, 72, 76, 255), width=3)
-    gy = top + 760 - 70
-    d.line([(110, gy), (W - 110, gy)], fill=(70, 80, 85, 255), width=5)
+    if m.get("clip"):
+        d.rounded_rectangle([60, top, W - 60, top + 760], radius=34, fill=(255, 255, 255, 255), outline=F.LIME, width=5)
+    else:
+        d.rounded_rectangle([60, top, W - 60, top + 760], radius=34, fill=(20, 25, 28, 235), outline=(60, 72, 76, 255), width=3)
+        gy = top + 760 - 70
+        d.line([(110, gy), (W - 110, gy)], fill=(70, 80, 85, 255), width=5)
     cy = top + 800
     fs = F.font("xbold", 44)
     fn = F.font("black_i", 42)
@@ -170,8 +174,27 @@ def move_static(m, i, n):
     return img, (60, top + 10, W - 120, 740)
 
 
-def move_frame(static, box, m, t):
+def load_clip(path, w, h):
+    """Decode a clip to RGB frames at FPS, scaled to fit w x h (keeps aspect)."""
+    import numpy as np
+    probe = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=width,height",
+                            "-of", "csv=p=0", path], capture_output=True, text=True).stdout.strip().split(",")
+    iw, ih = int(int(probe[0]) * 0.74), int(int(probe[1]) * 0.84)   # trim the clip's empty white margins
+    s = min(w / iw, h / ih)
+    ow, oh = int(iw * s) // 2 * 2, int(ih * s) // 2 * 2
+    raw = subprocess.run(["ffmpeg", "-loglevel", "error", "-i", path, "-vf", f"fps={FPS},crop=iw*0.74:ih*0.84,scale={ow}:{oh}",
+                          "-f", "rawvideo", "-pix_fmt", "rgb24", "-"], capture_output=True).stdout
+    n = len(raw) // (ow * oh * 3)
+    return [Image.frombuffer("RGB", (ow, oh), raw[i * ow * oh * 3:(i + 1) * ow * oh * 3]) for i in range(n)]
+
+
+def move_frame(static, box, m, t, clip=None):
     img = static.copy()
+    if clip:
+        fr = clip[int(t * FPS) % len(clip)]
+        bx, by, bw, bh = box
+        img.paste(fr, (int(bx + (bw - fr.width) / 2), int(by + (bh - fr.height) / 2)))
+        return img.convert("RGB")
     anim = ANIMS[m["anim"]]
     for p, *_ in anim["frames"]:
         figure(img, anim, p, box, alpha=0.14)
@@ -215,7 +238,7 @@ def outro_frame(spec, t):
     d = ImageDraw.Draw(img)
     d.text((66, y + 20), spec["outro_sub"], font=F.font("xbold", 50), fill=F.GREY)
     y += 160
-    items = [("bookmark", "SAVE THIS", "for your next leg day"), ("paper-plane", "SHARE", spec["send"]),
+    items = [("bookmark", "SAVE THIS", spec.get("save", "for your next leg day")), ("paper-plane", "SHARE", spec["send"]),
              ("user-plus", "FOLLOW", "@fitdecoded.india for more")]
     pulse = 1.0 + 0.05 * math.sin(t * 6)
     for k, (ic, a, b) in enumerate(items):
@@ -243,8 +266,9 @@ def main(spec_path, out, cover_out):
     n = len(spec["moves"])
     for k, m in enumerate(spec["moves"], 1):
         static, box = move_static(m, k, n)
+        clip = load_clip(m["clip"], box[2] - 20, box[3] - 20) if m.get("clip") else None
         for i in range(int(MOVE_T * FPS)):
-            p.stdin.write(move_frame(static, box, m, i / FPS).tobytes())
+            p.stdin.write(move_frame(static, box, m, i / FPS, clip).tobytes())
     for i in range(int(OUT_T * FPS)):
         p.stdin.write(outro_frame(spec, i / FPS).tobytes())
     p.stdin.close(); p.wait()
