@@ -13,3 +13,6 @@ Example: posts/2026-11-24-workout/ (grid.json + spec.json). Owner OK'd video ins
 - [ ] Core: plank, dead bug, side plank, mountain climber, glute bridge march, leg raise — CORE
 - [ ] Home full body, no equipment: squat, push-up, lunge, plank, glute bridge, jumping jacks — HOME
 - (then repeat the cycle with 6 different moves per body part)
+
+## Real exercise clips
+If `library/videos.json` lists clips (imported from the owner's Google Drive) for this week's moves, prefer them over the drawn figures: put each clip in its card of the grid (extend make_workout_grid.py to composite video frames), keeping the muscle maps, names and cues.
