@@ -24,7 +24,7 @@ jobs:
 
       - name: Download Drive folder
         run: |
-          gdown --folder "${{ inputs.folder }}" -O raw --remaining-ok || echo "gdown exited non-zero; continuing with what downloaded"
+          gdown --folder "${{ inputs.folder }}" -O raw --continue --retries 5 || echo "gdown exited non-zero; continuing with what downloaded"
           echo "Downloaded: $(find raw -type f | wc -l) files, $(du -sh raw | cut -f1)"
 
       - name: Compress and publish as release assets
