@@ -10,6 +10,7 @@ Usage: python3 import_videos.py RAW_DIR OUT_DIR
 - Writes library/videos.json: one entry per clip with category, exercise name,
   public download URL and size.
 """
+import hashlib
 import json
 import os
 import re
@@ -35,15 +36,20 @@ def run(cmd):
 def main(raw_dir, out_dir):
     raw, out = Path(raw_dir), Path(out_dir)
     out.mkdir(parents=True, exist_ok=True)
-    clips, used = [], set()
+    clips, used, seen = [], set(), set()
     for src in sorted(raw.rglob("*")):
         if src.suffix.lower() not in (".mp4", ".mov", ".m4v") or not src.is_file():
             continue
+        digest = hashlib.md5(src.read_bytes()).hexdigest()
+        if digest in seen:  # same clip uploaded twice, e.g. "x (1).mp4"
+            print(f"duplicate skipped: {src.name}")
+            continue
+        seen.add(digest)
         rel = src.relative_to(raw).parts
         # category = the men / girl folder wherever it sits in the path
         dirs = [slug(p) for p in rel[:-1]]
-        category = next((d for d in dirs if d in ("men", "girl")),
-                        dirs[-1] if dirs else "misc")
+        category = os.environ.get("CATEGORY") or next(
+            (d for d in dirs if d in ("men", "girl")), dirs[-1] if dirs else "misc")
         name = f"{category}__{slug(src.stem)}"
         base, n = name, 2
         while name in used:

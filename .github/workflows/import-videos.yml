@@ -6,6 +6,9 @@ on:
       folder:
         description: "Google Drive folder URL (shared: anyone with the link)"
         default: "https://drive.google.com/drive/folders/1_-fFmUfxmhTiV-qo2g1WxwuOVI9r_e1t"
+      category:
+        description: "Category name for all clips (blank = use men/girl subfolders)"
+        default: ""
 
 permissions:
   contents: write
@@ -30,6 +33,7 @@ jobs:
       - name: Compress and publish as release assets
         env:
           GH_TOKEN: ${{ github.token }}
+          CATEGORY: ${{ inputs.category }}
         run: python3 .github/scripts/import_videos.py raw out
 
       - name: Commit index
