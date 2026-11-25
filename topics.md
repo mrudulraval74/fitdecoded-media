@@ -9,7 +9,7 @@
 - [x] 2026-11-22 (A) Going to the gym daily but no muscle? 3 mistakes (FACT: overload, protein, sleep) — keyword GROW
 - [x] 2026-11-23 (A) How much protein do you really need in a day? (~grams in 5 Indian foods) — keyword PROTEIN2
 - [x] 2026-11-24 (A) Your weight jumps after a cheat meal = fat gain? (MYTH, water + food weight) — keyword SCALE
-- [ ] Chai with sugar 4 times a day adds up (FACT) — keyword CHAI
+- [x] 2026-11-25 (A) Chai with sugar 4 times a day adds up (MYTH 'harmless?', sugar math) — keyword CHAI
 - [ ] Namkeen and biscuits are "light" snacks? (MYTH) — keyword SNACK
 - [ ] Paneer is a complete protein source? (FACT-ish, compare options) — keyword PANEER
 - [ ] Is fruit sugar bad for weight loss? (MYTH) — keyword FRUIT
@@ -41,3 +41,5 @@
 - [ ] Can beginners build muscle at home with no weights? (FACT) — keyword HOME
 - [ ] Lost 2 kg in 3 days on a crash diet = fat loss? (MYTH, mostly water) — keyword CRASH
 - [ ] Weekly weigh-in vs daily: which tells the truth? (FACT, weekly average) — keyword WEEKLY
+- [ ] Sugar-free mithai is fat-free? (MYTH, calories from ghee + mawa) — keyword MITHAI
+- [ ] Mustard oil vs refined oil: type matters more than amount? (MYTH, portion first) — keyword OIL
