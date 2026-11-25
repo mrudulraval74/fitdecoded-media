@@ -9,7 +9,7 @@ Scene types (all except cta take "photo": library file name, optional "focus": [
   reveal  : verdict ("MYTH"/"FACT"), headline
   explain : label, headline, stats: [[icon, value, unit, label], ...] (0-2)
   list    : label, items: [[fa_icon, title, desc], ...] (3-4)
-  cta     : keyword, body
+  cta     : keyword, body  (or head + tag for a question CTA, e.g. head "COMMENT YOUR PICK", tag "RICE or ROTI?")
 Durations ("dur") ~2.5-5 s each; total 22-30 s.
 """
 import json, math, os, subprocess, sys
@@ -170,9 +170,12 @@ def frame(s, si, t, gt, total):
         F.logo(img, 120, 330, 1.25)
         d = ImageDraw.Draw(img)
         k = pop((t - 0.2) / 0.4)
-        d.text(((W - d.textlength("COMMENT", font=F.font("black_i", 120))) / 2, 680), "COMMENT", font=F.font("black_i", 120), fill=F.WHITE)
+        head = s.get("head", "COMMENT")
+        tag = s.get("tag", f'"{s.get("keyword", "")}"')
+        hf = F.font("black_i", 120 if len(head) <= 9 else 84)
+        d.text(((W - d.textlength(head, font=hf)) / 2, 680), head, font=hf, fill=F.WHITE)
         if k > 0.05:
-            Lk = static_layer((si, 1), lambda L: F.brush_label(L, f'"{s["keyword"]}"', 0, 840, size=150, seed=12, center=True))
+            Lk = static_layer((si, 1), lambda L: F.brush_label(L, tag, 0, 840, size=150 if len(tag) <= 10 else 100, seed=12, center=True))
             anim_paste(img, Lk, 0.2, t, dx=0)
         L2 = static_layer((si, 2), lambda L: F.rich_text(L, s.get("body", ""), 0, 1080, F.font("bold_i", 56), W - 180, center=True, gap=1.2, shadow=False))
         anim_paste(img, L2, 0.6, t, dx=0)

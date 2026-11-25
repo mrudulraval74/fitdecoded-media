@@ -10,14 +10,16 @@ Spec:
  "outro": "Do *3 rounds*", "outro_sub": "Rest ~60 sec between rounds", "send": "Send this to your leg-day buddy"
 }
 Instead of "anim", a move may give "clip": path to an exercise clip (licensed bundle, library/videos.json).
+Optional: "pace": "fast" (~21 s), "music": true (generated beat).
 anim: squat | lunge | bridge | calf | wallsit | donkey
 """
-import json, math, subprocess, sys
+import json, math, os, subprocess, sys
 from PIL import Image, ImageDraw, ImageFilter
 import fd2 as F
 
 W, H, FPS = 1080, 1920, 30
-HOOK_T, MOVE_T, OUT_T = 2.6, 3.8, 3.4
+HOOK_T, MOVE_T, OUT_T = 2.6, 3.8, 3.4          # default ~29 s
+FAST = (1.8, 2.8, 2.6)                         # spec "pace": "fast" -> ~21 s (opt-in)
 BODY = (235, 238, 240)
 BACK = (150, 158, 164)
 
@@ -253,9 +255,19 @@ def outro_frame(spec, t):
 
 
 def main(spec_path, out, cover_out):
+    global HOOK_T, MOVE_T, OUT_T
     spec = json.load(open(spec_path))
+    if spec.get("pace") == "fast":
+        HOOK_T, MOVE_T, OUT_T = FAST
+    n = len(spec["moves"])
+    wav = None
+    if spec.get("music"):                 # opt-in: our own generated beat (no licensed music)
+        from render_reel import make_audio
+        wav = out + ".wav"
+        make_audio(wav, HOOK_T + n * MOVE_T + OUT_T, [0.0] + [HOOK_T + k * MOVE_T for k in range(n + 1)])
+    audio = ["-i", wav] if wav else ["-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo"]
     p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}",
-                          "-r", str(FPS), "-i", "-", "-f", "lavfi", "-i", "anullsrc=r=44100:cl=stereo", "-shortest",
+                          "-r", str(FPS), "-i", "-", *audio, "-shortest",
                           "-c:v", "libx264", "-pix_fmt", "yuv420p", "-crf", "20", "-c:a", "aac", "-b:a", "64k",
                           "-movflags", "+faststart", out], stdin=subprocess.PIPE)
     for i in range(int(HOOK_T * FPS)):
@@ -272,6 +284,8 @@ def main(spec_path, out, cover_out):
     for i in range(int(OUT_T * FPS)):
         p.stdin.write(outro_frame(spec, i / FPS).tobytes())
     p.stdin.close(); p.wait()
+    if wav:
+        os.remove(wav)
     print("ok", HOOK_T + n * MOVE_T + OUT_T, "s")
 
 
