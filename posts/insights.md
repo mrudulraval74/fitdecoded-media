@@ -1,6 +1,6 @@
 # FitDecoded insights
 
-Review: 2026-11-25 (data Oct 26 – Nov 25; Windsor cache, no refresh on this plan; posts < 24 h old excluded except where noted)
+Review: 2026-11-26 12:55 IST (data Oct 27 – Nov 26; Windsor cache; posts < 24 h old excluded from scores)
 
 Score = reach + 5×shares + 5×saves + 10×follows + 3×comments + 3×profile visits
 
@@ -8,41 +8,46 @@ Score = reach + 5×shares + 5×saves + 10×follows + 3×comments + 3×profile vi
 | Date | Topic | Format | Views | Reach | Shares | Saves | Follows | Score |
 |---|---|---|---|---|---|---|---|---|
 | 11-20 | Gym but not building muscle? (owner) | reel | 179 | 165 | 106 | 0 | - | 695 |
-| 11-24 | Lifting makes women bulky? (owner) | reel | 204 | 179 | 0 | 0 | - | 179 |
+| 11-25 | 6 moves stronger chest (bundle clips) | reel | 163 | 145 | 18 | 0 | - | 235 |
+| 11-25 | 6 moves stronger legs (drawn) | reel | 163 | 154 | 6 | 0 | - | 184 |
+| 11-24 | Lifting makes women bulky? (owner) | reel | 207 | 180 | 0 | 0 | - | 180 |
+| 11-25 | Chai sugar math (copy 1) | car | 5 | 3 | 4 | 0 | 0 | 26 |
+| 11-25 | Chai sugar math (duplicate) | car | 7 | 3 | 3 | 0 | 0 | 18 |
 | 11-19 | Veg diet muscle | car | 8 | 6 | 2 | 0 | 0 | 16 |
 | 11-22 | Gym daily but no muscle? | car | 7 | 3 | 0 | 0 | 0 | 6 |
 | 11-22 | Pradosh Vrat greeting | fest | 7 | 4 | 0 | 0 | 0 | 4 |
 | 11-20 | Women lifting bulky? | car | 10 | 4 | 0 | 0 | 0 | 4 |
-| 11-19 | Men's Day greeting | fest | 7 | 4 | 0 | 0 | 0 | 4 |
-| 11-23 | Vaikuntha Chaturdashi greeting | fest | 5 | 3 | 0 | 0 | 0 | 3 |
-| 11-23 | Dal-roti enough protein? | car | 2 | 2 | 0 | 0 | 0 | 2 |
-| 11-21 | Tulsi Vivah greeting | fest | 3 | 2 | 0 | 0 | 0 | 2 |
-| 11-21 | Mummy says rice makes you fat? | car | 2 | 2 | 0 | 0 | 0 | 2 |
-| 11-20 | Dev Uthani Ekadashi greeting | fest | 3 | 2 | 0 | 0 | 0 | 2 |
-| 11-24 | Workout #1 arms grid | car | 1 | 1 | 0 | 0 | 0 | 1 |
-| 11-24 | +2 kg after cheat meal? | car | 5 | 1 | 0 | 0 | 0 | 1 |
+| 11-23 | Vaikuntha Chaturdashi greeting | fest | 7 | 4 | 0 | 0 | 0 | 4 |
+| 11-23 | Dal-roti enough protein? | car | 3 | 3 | 0 | 0 | 0 | 3 |
+| 11-24 | +2 kg after cheat meal? | car | 7 | 3 | 0 | 0 | 0 | 3 |
+| 11-24 | Gurpurab greeting | fest | 3 | 2 | 0 | 0 | 0 | 2 |
 
-Median score 3.5. Older top carousels (outside the 14): Weight up overnight? 26 (4 shares), Ghee makes you fat? 22 (2 shares, 2 profile visits), Crunches belly fat 16.
-Account: 0 comments in 7 days; followers_count = 4. Yesterday (11-24): 46 views, 33 reach, 38 non-follower views. The owner's legs Reel went out at 12:49 IST today, so today's Slot A carousel waits until ≥ 15:50 IST (3-hour gap).
-
-- Slot B check 18:25 IST: today's Reels — Legs 160 views / 151 reach / 6 shares / 0 saves; Chest 163 views / 145 reach / 18 shares / 0 saves. Chai carousel (posted twice): 5+7 views, 3+3 reach, 4+3 shares, 1 comment. The 'Application request limit reached' error did NOT stop publishing — never retry a carousel without first checking the latest media.
+Median score 17. Not scored yet (< 24 h): today's back exercise Reel (147 views / 124 reach / 3 shares at 4 h) and today's namkeen myth Reel.
+Account: yesterday (11-25) 421 views, 356 reach, 397 non-follower views (best day so far); followers 4 → 5 (+1); 0 genuine comments in 7 days.
 
 ## Learnings
-- Best carousel themes over 30 days: weighing scale (26), ghee / Indian food (22), veg protein (16). Today follows the Indian food + numbers angle: "4 chai a day is harmless?" with a saveable sugar-math list.
-- Reels (owner's and ours) are still the only reach engine: 100–180 reach each vs 1–6 for carousels. Every carousel since 11-20 has 0 shares and ≤ 4 reach.
-- What flopped (score < half the median): the "+2 kg cheat meal" carousel and the arms grid (1 reach each, both posted the same day as an owner Reel), festival greetings, keyword CTAs (0 comments ever).
+- Reels carry everything: 7-day Reel avg views 178 (4 Reels) vs 130 the 7 days before (6 Reels) = +37%. Shares come from "problem" hooks (gym-no-muscle 106, chest 18); plain fact hooks (women bulky) get views but 0 shares.
+- Carousels: the chai sugar-math carousel was the best carousel in 2 weeks (7 shares across both copies) — Indian food + numbers is the carousel theme to keep for Mon/Wed/Fri evenings.
+- Flopped: festival greetings (2–4 reach) and carousels posted on Reel days without a numbers angle (≤ 3 reach).
 
-## Plan for today (2026-11-25)
-- Slot A: "4 CHAI A DAY IS HARMLESS?" (MYTH: chai is fine, sugar adds up). Verdict stats ~16 kcal/tsp, ~900 kcal/week; list = sugar math per tsp/cup/day/week; swaps (half spoon, roasted chana, smaller cups); keyword CHAI. Held to 16:10 IST (owner's Reels at 12:49 and 13:10). NOT published: create_carousel_post failed twice with Instagram 'Application request limit reached' (likely too many API publishes today). Slides were switched to the new question CTA (no keyword) per the updated playbook.
+## Tuning (2026-11-26)
+- Reels vs Reels, 7d vs prior 7d: views 178 vs 130 avg; follows +1 (first follower growth in 7 days). Not falling → no big change.
+- Best 3 Reels: gym-no-muscle (problem question, gym photo), chest moves (practical list), legs moves. Worst: carbs Reel 11-15 (59 views, general fact hook). Keep "problem question" hooks.
+- Length test: no myth Reel under 16 s has data yet (today is the first 14.8 s one); compare by 12-02.
+- One change today: hook headline is visible from frame 1 (no fade-in). Logged in tuning.md.
 
-## Best time (non-festival carousels/images only, IST, reach to date)
-| Time bucket | Posts | Avg reach |
-|---|---|---|
-| 7–10 AM | 3 | 5.3 |
-| 10 AM–1 PM | 4 | 3.2 |
-| 1–4 PM | 5 | 5.6 |
-| 4–7 PM | 0 | – |
-| 7–10 PM | 0 | – |
-| 10 PM+ | 0 | – |
+## Plan for today (2026-11-26)
+- Slot A (12:52): myth Reel "NAMKEEN IS A LIGHT SNACK?" (MYTH), ~170 kcal per 30 g bhujia, ~25 kcal per small biscuit; swaps roasted chana / makhana / fruit + peanuts; CTA "CHANA or MAKHANA?". Published ~13:05 IST (3 h 50 min after the 9:12 exercise Reel). Media id 17990598402096908.
+- Slot B (Thu): no festival, not Mon/Wed/Fri → skip.
 
-- 1–4 PM now has 5 carousels/images and 5.6 avg reach = 1.75× the 10 AM–1 PM bucket of the current 12:52 slot → recommend moving Slot A into 1–4 PM (e.g. 15:22). Caveat: tiny numbers (1–10 reach).
+## Best time (IST, average 24 h reach; like with like, festivals excluded)
+| Time bucket | Reels | Avg reach | Carousels/images | Avg reach |
+|---|---|---|---|---|
+| 7–10 AM | 3 (11-14 22:34 excl.) | 108 | 3 | 5.3 |
+| 10 AM–1 PM | 3 | 160 | 4 | 3.2 |
+| 1–4 PM | 2 | 156 | 6 | 5.2 |
+| 4–7 PM | 0 | – | 2 | 3.0 |
+| 7–10 PM | 0 | – | 0 | – |
+| 10 PM+ | 1 | 110 | 0 | – |
+
+- No bucket has ≥ 5 Reels yet; no schedule recommendation from timing data.
