@@ -24,3 +24,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-25 | slot B no new post (Wed carousel = Slot A chai carousel, already live twice; last feed post 16:19 IST < 3 h) | - | - | - | -
 2026-11-26 | reel (bundle clips, 9:07 exercise slot) | Sit all day? 6 moves for a strong back (girl, band + dumbbell) | - | 18128620186926535 | FitDecoded_47 (hook), 21 (outro) + clips girl: band-bent-over-row, band-seated-row, band-kneeling-one-arm-pulldown, dumbbell-bent-over-row, dumbbell-deadlift, inverted-row-between-chairs
 2026-11-26 | reel (myth, Slot A 12:52, published ~13:05 IST) | Namkeen and biscuits are "light" snacks? (MYTH) | (question CTA: CHANA or MAKHANA?) | 17990598402096908 | FitDecoded_29, 30, 14, 23
+2026-11-26 | slot B skipped (viral plan) | - | - | - | -
