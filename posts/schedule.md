@@ -25,8 +25,9 @@ Phase: EXPLORE (started 2026-11-20)
 | 2026-11-21 | A | 12:54 (actual IG time) | Rice vs roti | 2 |
 | 2026-11-22 | A | 12:55 (actual IG time; trigger still 12:52, 15:22 change never applied) | Gym daily but no muscle | 3 |
 | 2026-11-23 | A | 12:55 (actual IG time; 15:22 change never applied) | Dal-roti enough protein? | 2 |
-| 2026-11-24 | A | 13:57 (trigger 12:52; held for 3-h gap after owner's 10:55 Reel) | +2 kg after cheat meal? | (pending) |
-| 2026-11-25 | A | 16:12 (+ duplicate 16:19; both 'failed' calls actually published) | Chai sugar math | (pending) |
+| 2026-11-24 | A | 13:57 (trigger 12:52; held for 3-h gap after owner's 10:55 Reel) | +2 kg after cheat meal? | 3 |
+| 2026-11-25 | A | 16:12 (+ duplicate 16:19; both 'failed' calls actually published) | Chai sugar math | 3 + 3 |
+| 2026-11-26 | A | ~13:05 (trigger 12:52) — first Slot A REEL (myth) | Namkeen light snack? | (pending) |
 | 2026-11-21 | B | 18:25 (actual IG time) | Tulsi Vivah greeting (festival) | not counted (festival; 2) |
 | 2026-11-22 | B | 18:24 (actual IG time) | Pradosh Vrat greeting (festival) | not counted (festival; 4) |
 | 2026-11-23 | B | 18:27 (actual IG time; 20:22 change never applied) | Vaikuntha Chaturdashi greeting (festival) | not counted (festival; 3) |
@@ -34,6 +35,7 @@ Phase: EXPLORE (started 2026-11-20)
 | 2026-11-25 | B | no post (Slot A carousel already live; 3-h gap) | – | – |
 
 ## Current settings
+- 2026-11-26 run: Slot A now posts Reels, so Reel counts restart. Allowed candidates (≥ 3 h after 9:07 exercise Reel, ≥ 3 h before 18:22): 12:52 (1 Reel), 15:22 (0). Explore rule → 15:22 for 2026-11-27. update_trigger was blocked again (scheduled runs need owner approval). Owner can apply manually: CRON_TZ=Asia/Kolkata 22 15 * * * — trigger stays at 12:52 until then.
 - 2026-11-25 run: explore rule picked 09:22 for 2026-11-26, but update_trigger was blocked again (scheduled runs need owner approval), so the trigger stays at 12:52. Good thing: the new viral plan (CLAUDE.md, 2026-11-25) puts the exercise Reel at 9:07 AM and the myth Reel at 12:52, so 09:22 would break the 3-h gap. Recommendation: keep Slot A at 12:52 and stop exploring Slot A times while the viral plan runs.
 - Slot A: 12:52 (trigger unchanged). Counts so far: 09:22 = 0, 12:52 = 4 (11-21..11-23 + today's trigger; today actually published ~14:00 because of the 3-h gap after the owner's Reel), 15:22 = 0. 2026-11-24 run chose 15:22 for 2026-11-25 (explore: fewest posts, tie goes to next after 12:52; exactly 3 h before Slot B 18:22). update_trigger was blocked for the 5th day (scheduled runs need owner approval), so the owner must apply it manually: CRON_TZ=Asia/Kolkata 22 15 * * *
 - Slot B: 18:22 (trigger unchanged). Counted Slot B posts so far: 0 (every Slot B post has been a festival greeting). 2026-11-23 run again chose 20:22 for 2026-11-24 (explore: no counted posts at any time, next after 18:22). update_trigger blocked again (scheduled runs need owner approval); owner can apply manually: CRON_TZ=Asia/Kolkata 22 20 * * *. 2026-11-24 run (Guru Nanak Jayanti festival, not counted) again chose 20:22 for 2026-11-25; update_trigger blocked again (needs owner approval). Must stay >= 3 h after Slot A (12:52 now, 15:22 if applied).
