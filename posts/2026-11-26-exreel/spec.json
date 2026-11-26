@@ -1,0 +1,10 @@
+{"hook_photo": "FitDecoded_47.jpg", "focus": [0.5, 0.5], "label": "HOME + BANDS", "hook": "SIT ALL DAY? BUILD A *STRONG BACK*", "hook_sub": "Ghar pe hi karo. Save it!",
+ "outro_photo": "FitDecoded_21.jpg", "save": "for your next back day", "pace": "fast", "music": true,
+ "moves": [
+  {"name": "Band Bent-over *Row*", "clip": "band-bent-over-row.mp4", "targets": ["Upper Back", "Lats", "Biceps"], "cues": ["Stand on the band, hinge forward", "Pull elbows back, flat back"], "reps": "12-15 reps"},
+  {"name": "Band Seated *Row*", "clip": "band-seated-row.mp4", "targets": ["Mid Back", "Lats"], "cues": ["Sit tall, band anchored low", "Squeeze shoulder blades together"], "reps": "12-15 reps"},
+  {"name": "One-arm Band *Pulldown*", "clip": "band-kneeling-one-arm-pulldown.mp4", "targets": ["Lats", "Biceps"], "cues": ["Band anchored high, kneel tall", "Pull elbow down to your side"], "reps": "10-12 each"},
+  {"name": "One-arm DB *Row*", "clip": "dumbbell-bent-over-row.mp4", "targets": ["Lats", "Upper Back"], "cues": ["Hand and knee on a bench", "Pull dumbbell to your hip"], "reps": "10-12 each"},
+  {"name": "Dumbbell *Deadlift*", "clip": "dumbbell-deadlift.mp4", "targets": ["Lower Back", "Glutes", "Hamstrings"], "cues": ["Hips back, back stays flat", "Dumbbells close to your legs"], "reps": "10-12 reps"},
+  {"name": "Inverted *Row*", "clip": "inverted-row-between-chairs.mp4", "targets": ["Upper Back", "Lats", "Biceps"], "cues": ["Sturdy chairs + strong bar only", "Pull chest to bar, body straight"], "reps": "6-10 reps"}],
+ "outro": "Do *3 sets* each", "outro_sub": "Rest ~60-90 sec between sets", "send": "Send this to a friend who sits at a desk all day"}
