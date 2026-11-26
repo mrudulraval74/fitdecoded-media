@@ -105,7 +105,7 @@ def frame(s, si, t, gt, total):
     if ty == "hook":
         L1 = static_layer((si, 1), lambda L: F.brush_label(L, s.get("label", "MYTH OR FACT?"), 70, 860, size=70, seed=3))
         L2 = static_layer((si, 2), lambda L: F.rich_text(L, s["headline"].upper(), 74, 980, F.font("black_i", s.get("size", 116)), W - 140, gap=1.0))
-        anim_paste(img, L1, 0.0, t); anim_paste(img, L2, 0.25, t, dx=0)
+        anim_paste(img, L1, -0.4, t); anim_paste(img, L2, -0.4, t, dx=0)  # hook readable from frame 1
         if s.get("hud"):
             k = pop((t - 0.8) / 0.4)
             if k > 0.05:
@@ -175,7 +175,7 @@ def frame(s, si, t, gt, total):
         hf = F.font("black_i", 120 if len(head) <= 9 else 84)
         d.text(((W - d.textlength(head, font=hf)) / 2, 680), head, font=hf, fill=F.WHITE)
         if k > 0.05:
-            Lk = static_layer((si, 1), lambda L: F.brush_label(L, tag, 0, 840, size=150 if len(tag) <= 10 else 100, seed=12, center=True))
+            Lk = static_layer((si, 1), lambda L: F.brush_label(L, tag, 0, 840, size=150 if len(tag) <= 10 else (100 if len(tag) <= 13 else int(100 * 13 / len(tag))), seed=12, center=True))
             anim_paste(img, Lk, 0.2, t, dx=0)
         L2 = static_layer((si, 2), lambda L: F.rich_text(L, s.get("body", ""), 0, 1080, F.font("bold_i", 56), W - 180, center=True, gap=1.2, shadow=False))
         anim_paste(img, L2, 0.6, t, dx=0)

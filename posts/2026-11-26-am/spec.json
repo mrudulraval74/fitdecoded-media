@@ -1,0 +1,11 @@
+{
+ "topic": "Namkeen and biscuits are light snacks?",
+ "keyword": "SNACK",
+ "scenes": [
+  {"type": "hook", "dur": 2.0, "photo": "FitDecoded_29.jpg", "focus": [0.5, 0.4], "label": "MYTH OR FACT?", "headline": "NAMKEEN IS A *LIGHT* SNACK?", "sub": "Chai ke saath namkeen = light snack?"},
+  {"type": "reveal", "dur": 2.2, "photo": "FitDecoded_30.jpg", "focus": [0.5, 0.5], "verdict": "MYTH", "headline": "Small bowl, *big* calories.", "sub": "Fried + salty = easy to overeat"},
+  {"type": "explain", "dur": 3.6, "photo": "FitDecoded_14.jpg", "focus": [0.5, 0.5], "label": "THE MATH", "headline": "One small katori of bhujia ≈ *~170 kcal*", "stats": [["fire", "~170", "kcal", "30 g bhujia"], ["cookie-bite", "~25", "kcal", "per small biscuit"]], "sub": "Aur haath rukta hi nahi!"},
+  {"type": "list", "dur": 4.2, "photo": "FitDecoded_23.jpg", "focus": [0.5, 0.5], "label": "SMART SWAPS", "items": [["seedling", "Roasted Chana", "Protein + fibre, keeps you full"], ["bowl-food", "Roasted Makhana", "Big bowl, light on calories"], ["apple-whole", "Fruit + Peanuts", "Sweet, crunchy, satisfying"]], "sub": "Same crunch, more fullness"},
+  {"type": "cta", "dur": 2.8, "head": "COMMENT YOUR PICK", "tag": "CHANA or MAKHANA?", "body": "I reply to *every* comment"}
+ ]
+}
