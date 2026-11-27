@@ -27,3 +27,4 @@ One line per post: date | format | topic | keyword | permalink
 2026-11-26 | slot B skipped (viral plan) | - | - | - | -
 2026-11-27 | reel (bundle clips, 9:07 exercise slot, published ~09:11 IST) | Flat shoulders? 6 moves for round delts (men, dumbbells + band) | - | 18287464351291198 | FitDecoded_01 (hook), 50 (outro) + clips men: dumbbell-lateral-raise, dumbbell-front-raise, dumbbell-alternate-shoulder-press, dumbbell-arnold-press, dumbbell-rear-lateral-raise, band-standing-rear-delt-row
 2026-11-27 | reel (nutrition tips TRIAL, owner request ~10:50 IST; not a Slot B post) | High-protein Indian foods (VEG vs NON-VEG) | (question CTA: VEG or NON-VEG?) | 18044271161844542 | FitDecoded_28 (background) + 3D food icons
+2026-11-27 | reel (myth, Slot A 12:52, published ~13:46 IST for 3-h gap after 10:44 tips trial) | Sugar-free mithai = guilt-free? (MYTH) | (question CTA: KAJU KATLI or LADDOO?) | 18138905782733639 | FitDecoded_49, 43, 33, 37

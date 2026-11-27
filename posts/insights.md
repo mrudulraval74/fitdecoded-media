@@ -38,7 +38,7 @@ Account: yesterday (11-26) 543 views, 481 reach, 523 non-follower views, 9 accou
 - One change today: topic order now puts Indian-food myths first in topics.md (mithai, poha vs paratha, oil, paneer, fruit sugar) ahead of gym myths. Logged in tuning.md.
 
 ## Plan for today (2026-11-27)
-- Slot A: myth Reel "SUGAR-FREE MITHAI = GUILT-FREE?" (MYTH; calories come from ghee/mawa/nuts, 1 tsp ghee ≈ ~45 kcal; enjoy smarter: one piece, fruit first, walk after); CTA "KAJU KATLI or LADDOO?". Held until ≥ 13:45 IST for the 3-h gap after the 10:44 tips trial Reel. Paneer topic deferred one day (today's tips Reel already covered protein foods incl. paneer).
+- Slot A: myth Reel "SUGAR-FREE MITHAI = GUILT-FREE?" (MYTH; calories come from ghee/mawa/nuts, 1 tsp ghee ≈ ~45 kcal; enjoy smarter: one piece, fruit first, walk after); CTA "KAJU KATLI or LADDOO?". Published 13:46 IST (3-h gap after the 10:44 tips trial Reel), media id 18138905782733639. Paneer topic deferred one day (today's tips Reel already covered protein foods incl. paneer).
 - Slot B (6:22 PM): daily nutrition tips Reel (posts/nutrition.md); not a major festival day.
 
 ## Best time (IST; lifetime reach per post; like with like, festivals excluded)
