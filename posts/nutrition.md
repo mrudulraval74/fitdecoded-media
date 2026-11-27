@@ -14,13 +14,13 @@ Rules:
 - Never repeat a topic in posts/log.md. When fewer than 8 [ ] remain, add 15 new ones in the same style.
 
 ## Topics (take the first [ ])
-- [ ] 4 easy snack swaps (SKIP vs EAT) — start from posts/sample-tips2/spec.json
-- [ ] High-protein Indian foods (VEG vs NON-VEG, protein per serving) — start from posts/sample-tips/spec.json
+- [x] 2026-11-27 (trial, posts/2026-11-27-tips-trial) High-protein Indian foods (VEG vs NON-VEG, protein per serving)
 - [ ] High-protein Indian breakfasts (poha + peanuts, besan chilla, moong chilla, paneer paratha, eggs + toast, sprouts)
 - [ ] Before gym vs after gym: what to eat (banana, toast + peanut butter / dal-rice, eggs, paneer, curd)
 - [ ] Fibre-rich Indian foods (whole fruit, rajma, chana, oats, whole-wheat roti, sabzi)
 - [ ] Make your thali balanced (½ sabzi, ¼ dal/paneer/protein, ¼ rice/roti, curd/salad)
 - [ ] Chai time swaps (sugar → less sugar, biscuits → roasted chana, 4 cups → 2 cups)
+- [ ] 4 easy snack swaps (SKIP vs EAT) — start from posts/sample-tips2/spec.json (not before 2026-11-30: myth Reel 2026-11-26 covered namkeen/biscuits)
 - [ ] Hydration tips (water, chaas, nimbu pani without sugar, coconut water, fruits like watermelon/cucumber)
 - [ ] Winter healthy foods in India (seasonal: carrots, amla, guava, oranges, peanuts, sweet potato)
 - [ ] Late-night craving swaps (namkeen → makhana, ice cream → curd + fruit, maggi → besan chilla)
