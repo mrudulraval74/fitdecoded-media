@@ -1,0 +1,26 @@
+{
+ "label": "SAVE THIS MENU",
+ "headline": "HIGH-PROTEIN *INDIAN* MENU",
+ "sub": "Protein per serving · pick 1 in every meal",
+ "photo": "FitDecoded_28.jpg",
+ "value_label": "protein",
+ "columns": [
+  {"name": "VEG", "icon": "leaf", "items": [
+   ["1f9c0", "Paneer", "100 g", "~18g", "~265 kcal"],
+   ["1fadb", "Soya chunks", "30 g dry", "~15g", "~105 kcal"],
+   ["1fad8", "Boiled chana", "1 katori (100 g)", "~9g", "~165 kcal"],
+   ["1f372", "Moong dal", "1 katori cooked", "~7g", "~120 kcal"],
+   ["1f963", "Dahi (curd)", "1 bowl (200 g)", "~7g", "~120 kcal"]
+  ]},
+  {"name": "NON-VEG", "icon": "drumstick-bite", "items": [
+   ["1f357", "Chicken breast", "100 g cooked", "~31g", "~165 kcal"],
+   ["1f356", "Mutton", "100 g cooked", "~25g", "~250 kcal"],
+   ["1f41f", "Fish", "100 g cooked", "~22g", "~140 kcal"],
+   ["1f373", "Egg whites", "4 large", "~14g", "~70 kcal"],
+   ["1f95a", "Whole eggs", "2 boiled", "~12g", "~140 kcal"]
+  ]}
+ ],
+ "addons_title": "EASY ADD-ONS",
+ "addons": [["1f95b", "Milk, 1 glass", "~8g"], ["1f95c", "Peanuts, 30 g", "~7g"], ["1f35b", "Rajma, 1 katori", "~7g"]],
+ "tip": "Aim for ~20-30g protein in each main meal."
+}
