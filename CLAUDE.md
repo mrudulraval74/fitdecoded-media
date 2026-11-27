@@ -24,7 +24,7 @@ Tone: friendly, simple English, Indian food examples (dal, roti, rice, paneer, c
 Data (Nov 12–25): Reels 100–205 views each, ~90% non-followers; carousels 1–6 reach; festival posts 1–5; 0 comments ever on "Comment KEYWORD"; followers flat at 4. Reels are the discovery engine, so:
 - **9:07 AM (not Tue): exercise Reel** — 6 bundle clips, spec `"pace": "fast", "music": true` (~21 s), `engine/make_exercise_reel.py`, `posts/reels.md`. Tue 9:37 AM: weekly workout series (`posts/series.md`).
 - **12:52 PM: myth-busting Reel** (`engine/render_reel2.py`, ~15 s, see "Building a myth Reel"). Topic from `topics.md`, relatable Indian-food / gym-problem myths first. Folder `posts/DATE-am/`.
-- **6:22 PM: only if useful** — a MAJOR festival (list in the festival section) → festival greeting; else Mon/Wed/Fri → one saveable list carousel (6 slides); other days → post nothing (log "skipped").
+- **6:22 PM: daily nutrition tips Reel** (owner request 2026-11-27, replaces the Mon/Wed/Fri carousel) — colourful healthy-food tip card animated with `engine/make_tips.py --reel`, topic from `posts/nutrition.md` (rules there). A MAJOR festival day (list in the festival section) gets the festival greeting instead.
 - Hook in the first second: the first frame already shows the bold question. Questions naming a real problem ("Gym daily but no muscle?" got 106 shares) beat general facts.
 - CTA: no "Comment KEYWORD". Ask a one-word-answer question ("RICE or ROTI?") and say "I reply to every comment". Keep "save this" + "send to a friend who …".
 - Captions: first line = the hook; under ~1200 characters; 5–8 hashtags.

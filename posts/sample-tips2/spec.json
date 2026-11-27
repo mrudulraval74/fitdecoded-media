@@ -1,0 +1,22 @@
+{
+ "label": "SNACK SMARTER",
+ "headline": "4 EASY *SNACK* SWAPS",
+ "sub": "Same craving, better choice · save for your evening hunger",
+ "photo": "FitDecoded_33.jpg",
+ "value_label": "",
+ "columns": [
+  {"name": "SKIP", "icon": "xmark", "items": [
+   ["1f36a", "Cream biscuits", "4-5 with chai", "", "Sugar + refined flour"],
+   ["1f35f", "Chips / namkeen", "1 small pack", "", "Lots of oil and salt"],
+   ["1f964", "Cold drink", "1 bottle", "", "Liquid sugar"],
+   ["1f369", "Fried sweets", "after dinner", "", "Sugar + fried fat"]
+  ]},
+  {"name": "EAT", "icon": "check", "items": [
+   ["1fad8", "Roasted chana", "1 small katori", "", "Protein, keeps you full"],
+   ["1f37f", "Makhana", "roasted, light salt", "", "Crunchy, less oil"],
+   ["1f95b", "Chaas", "1 glass", "", "Cool, no added sugar"],
+   ["1f34c", "Fruit + 5 nuts", "banana, apple", "", "Natural sweet fix"]
+  ]}
+ ],
+ "tip": "Keep the better snack ready at home. You eat what you see."
+}
