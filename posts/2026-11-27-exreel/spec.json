@@ -1,0 +1,10 @@
+{"hook_photo": "FitDecoded_01.jpg", "focus": [0.5, 0.3], "label": "DUMBBELLS + BAND", "hook": "FLAT SHOULDERS? BUILD *ROUND DELTS*", "hook_sub": "Bas 2 dumbbells chahiye. Save it!",
+ "outro_photo": "FitDecoded_50.jpg", "save": "for your next shoulder day", "pace": "fast", "music": true,
+ "moves": [
+  {"name": "Dumbbell Lateral *Raise*", "clip": "men__dumbbell-lateral-raise.mp4", "targets": ["Side Delts"], "cues": ["Light weights, soft elbows", "Lift to shoulder height only"], "reps": "12-15 reps"},
+  {"name": "Dumbbell Front *Raise*", "clip": "men__dumbbell-front-raise.mp4", "targets": ["Front Delts"], "cues": ["Stand tall, no swinging", "Raise to eye level, lower slowly"], "reps": "10-12 reps"},
+  {"name": "Alternate Shoulder *Press*", "clip": "men__dumbbell-alternate-shoulder-press.mp4", "targets": ["Front Delts", "Side Delts", "Triceps"], "cues": ["Brace your core, ribs down", "Press one arm up at a time"], "reps": "8-10 each"},
+  {"name": "Dumbbell Arnold *Press*", "clip": "men__dumbbell-arnold-press.mp4", "targets": ["Front Delts", "Side Delts", "Triceps"], "cues": ["Sit tall, palms face you", "Rotate palms out as you press"], "reps": "8-10 reps"},
+  {"name": "Bent-over Rear *Raise*", "clip": "men__dumbbell-rear-lateral-raise.mp4", "targets": ["Rear Delts", "Upper Back"], "cues": ["Hinge forward, flat back", "Lift arms wide, squeeze back"], "reps": "12-15 reps"},
+  {"name": "Band Rear Delt *Row*", "clip": "men__band-standing-rear-delt-row.mp4", "targets": ["Rear Delts", "Upper Back"], "cues": ["Band at chest height", "Pull elbows wide and high"], "reps": "12-15 reps"}],
+ "outro": "Do *3 sets* each", "outro_sub": "Rest ~60-90 sec between sets", "send": "Send this to your gym buddy who skips shoulder day"}
