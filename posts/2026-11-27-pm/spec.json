@@ -1,0 +1,22 @@
+{
+ "label": "SAVE THIS",
+ "headline": "EAT THIS BEFORE & AFTER *GYM*",
+ "sub": "Simple Indian options · no supplements needed",
+ "photo": "FitDecoded_46.jpg",
+ "value_label": "",
+ "columns": [
+  {"name": "BEFORE", "icon": "bolt", "items": [
+   ["1f34c", "Banana", "30-60 min before", "", "Quick, easy energy"],
+   ["1f35e", "PB toast", "peanut butter, 1 slice", "", "Carbs + a little protein"],
+   ["1f963", "Poha / upma", "1 small plate", "", "Light, not heavy"],
+   ["1f4a7", "Water", "1-2 glasses", "", "Start hydrated"]
+  ]},
+  {"name": "AFTER", "icon": "dumbbell", "items": [
+   ["1f95a", "Eggs + roti", "within 1-2 hours", "", "Protein for repair"],
+   ["1f35b", "Dal + rice", "1 full plate", "", "Protein + carbs refuel"],
+   ["1f9c0", "Paneer bhurji", "with roti", "", "Easy veg protein"],
+   ["1f95b", "Milk / curd", "1 glass / 1 bowl", "", "Protein + fluids"]
+  ]}
+ ],
+ "tip": "Before: light carbs. After: protein + carbs in a proper meal."
+}
