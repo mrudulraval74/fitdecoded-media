@@ -1,0 +1,11 @@
+{
+ "topic": "Sugar-free mithai is guilt-free?",
+ "keyword": "MITHAI",
+ "scenes": [
+  {"type": "hook", "dur": 2.0, "photo": "FitDecoded_49.jpg", "focus": [0.5, 0.35], "label": "MYTH OR FACT?", "headline": "SUGAR-FREE MITHAI = *GUILT-FREE*?", "sub": "Sugar-free hai, toh 4 piece chalega?"},
+  {"type": "reveal", "dur": 2.2, "photo": "FitDecoded_43.jpg", "focus": [0.5, 0.5], "verdict": "MYTH", "headline": "No sugar ≠ *no calories*.", "sub": "Ghee, mawa aur kaju abhi bhi hain"},
+  {"type": "explain", "dur": 3.6, "photo": "FitDecoded_33.jpg", "focus": [0.5, 0.5], "label": "THE MATH", "headline": "Most calories come from *ghee*, mawa + nuts", "stats": [["droplet", "~45", "kcal", "1 tsp ghee"], ["scale-balanced", "1-2", "pieces", "enjoy, then stop"]], "sub": "Sugar-free label, same ghee"},
+  {"type": "list", "dur": 4.2, "photo": "FitDecoded_37.jpg", "focus": [0.5, 0.5], "label": "ENJOY SMARTER", "items": [["cookie-bite", "Pick One Piece", "Eat it slowly, no guilt"], ["apple-whole", "Fruit First", "Sweet taste, fewer calories"], ["person-walking", "Walk After", "Easy 10-minute walk after meals"]], "sub": "Mithai khao, par hisaab se"},
+  {"type": "cta", "dur": 2.8, "head": "COMMENT YOUR PICK", "tag": "KAJU KATLI or LADDOO?", "body": "I reply to *every* comment"}
+ ]
+}
