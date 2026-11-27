@@ -52,3 +52,5 @@ Account: yesterday (11-26) 543 views, 481 reach, 523 non-follower views, 9 accou
 | 10 PM+ | 1 | 110 | 0 | – |
 
 - No bucket has ≥ 5 Reels yet; no schedule recommendation from timing data. 10 AM–1 PM Reels lead so far (171 avg).
+
+- Slot B 18:35 IST check (cached data): today's Reels so far — exercise shoulders 171 views/150 reach/0 shares/0 saves; tips trial (protein foods) 197/169/1 share/2 saves (only Reel with saves this week); myth sugar-free mithai 184/166/0/0. Total 552 views, 1 share, 2 saves. Evening post: before/after gym tips Reel (skipped protein-breakfast topic to avoid repeating the morning protein trial).
