@@ -11,7 +11,10 @@
 - [x] 2026-11-24 (A) Your weight jumps after a cheat meal = fat gain? (MYTH, water + food weight) — keyword SCALE
 - [x] 2026-11-25 Chai with sugar 4 times a day adds up (MYTH 'harmless?', sugar math) — question CTA (published 16:12 + duplicate 16:19 IST)
 - [x] 2026-11-26 (A, myth Reel) Namkeen and biscuits are "light" snacks? (MYTH) — question CTA
+- [x] 2026-11-27 (A, myth Reel) Sugar-free mithai is fat-free? (MYTH, calories from ghee + mawa) — keyword MITHAI (published as question CTA: KAJU KATLI or LADDOO?)
 - [ ] Paneer is a complete protein source? (FACT-ish, compare options) — keyword PANEER
+- [ ] Poha or paratha: which breakfast keeps you full longer? (protein + fibre angle) — question CTA
+- [ ] Mustard oil vs refined oil: type matters more than amount? (MYTH, portion first) — keyword OIL
 - [ ] Is fruit sugar bad for weight loss? (MYTH) — keyword FRUIT
 - [ ] Detox teas burn fat? (MYTH) — keyword DETOX
 - [ ] Eggs raise cholesterol for most people? (MYTH) — keyword EGGS
@@ -41,7 +44,4 @@
 - [ ] Can beginners build muscle at home with no weights? (FACT) — keyword HOME
 - [ ] Lost 2 kg in 3 days on a crash diet = fat loss? (MYTH, mostly water) — keyword CRASH
 - [ ] Weekly weigh-in vs daily: which tells the truth? (FACT, weekly average) — keyword WEEKLY
-- [ ] Sugar-free mithai is fat-free? (MYTH, calories from ghee + mawa) — keyword MITHAI
-- [ ] Mustard oil vs refined oil: type matters more than amount? (MYTH, portion first) — keyword OIL
 - [ ] Gym 6 months, still no abs? (FACT: abs show with lower body fat, not more crunches) — question CTA
-- [ ] Poha or paratha: which breakfast keeps you full longer? (protein + fibre angle) — question CTA
