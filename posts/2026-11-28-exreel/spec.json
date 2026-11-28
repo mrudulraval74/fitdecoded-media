@@ -1,0 +1,10 @@
+{"hook_photo": "FitDecoded_02.jpg", "focus": [0.5, 0.3], "label": "HOME + BAND", "hook": "FLAT GLUTES? BUILD A *STRONG BUTT*", "hook_sub": "Ghar pe bhi ho jayega. Save it!",
+ "outro_photo": "FitDecoded_47.jpg", "save": "for your next leg day", "pace": "fast", "music": true,
+ "moves": [
+  {"name": "Bodyweight *Squat*", "clip": "girl__squat.mp4", "targets": ["Glutes", "Quads"], "cues": ["Feet shoulder-width, chest up", "Sit back, knees follow toes"], "reps": "12-15 reps"},
+  {"name": "Glute *Bridge*", "clip": "girl__rear-decline-bridge.mp4", "targets": ["Glutes", "Hamstrings"], "cues": ["Feet flat, close to hips", "Squeeze glutes at the top"], "reps": "15 reps"},
+  {"name": "Band Hip *Abduction*", "clip": "girl__band-hip-abduction.mp4", "targets": ["Side Glutes"], "cues": ["Stand tall, hold support", "Leg out to the side, slow"], "reps": "12-15 each"},
+  {"name": "Band Glute *Kickback*", "clip": "girl__band-standing-hip-extension.mp4", "targets": ["Glutes", "Hamstrings"], "cues": ["Hold support, core tight", "Kick back, don't arch back"], "reps": "12-15 each"},
+  {"name": "Goblet *Squat*", "clip": "girl__dumbbell-goblet-squat.mp4", "targets": ["Glutes", "Quads"], "cues": ["Hold dumbbell at chest", "Sit deep, push through heels"], "reps": "10-12 reps"},
+  {"name": "Dumbbell *Lunge*", "clip": "girl__dumbbell-lunge.mp4", "targets": ["Glutes", "Quads", "Hamstrings"], "cues": ["Big step, torso upright", "Back knee lowers softly"], "reps": "8-10 each"}],
+ "outro": "Do *3 sets* each", "outro_sub": "Rest ~60-90 sec between sets", "send": "Send this to your friend who wants stronger glutes"}
