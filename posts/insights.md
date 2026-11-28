@@ -26,6 +26,8 @@ Median score 13. Outside the 14: 11-20 "Gym but not building muscle?" Reel still
 Not scored yet (< 24 h): today's shoulders exercise Reel (163 views / 140 reach at ~9 h) and the nutrition tips TRIAL Reel "High-protein Indian foods VEG vs NON-VEG" (187 views / 162 reach / 2 saves / 1 share in ~8 h; first saves on any Reel).
 Account: yesterday (11-26) 543 views, 481 reach, 523 non-follower views, 9 accounts engaged (best day so far, 3rd record day in a row); followers 5 (+0 since yesterday's review).
 
+- 2026-11-28 Slot B (18:35 IST): today's glutes exercise Reel at ~15 h: 189 views / 174 reach / 3 shares / 0 saves / 4 comments (Windsor cache). No Slot A myth Reel was posted today (no 2026-11-28-am folder). Yesterday's before/after-gym tips Reel now 216 views (best of the 27th). Posted: high-protein Indian breakfasts tips Reel.
+
 ## Learnings
 - Indian-food myths work as Reels too: the namkeen myth Reel (200 views) beat both exercise Reels of the last 2 days (163–166). Food + numbers is the strongest theme across formats.
 - Saves finally appeared on the tips Reel (2 saves in 8 h): a keep-worthy list of Indian foods is saveable. Shares still come mainly from "problem" hooks (gym-no-muscle 106, chest 18).

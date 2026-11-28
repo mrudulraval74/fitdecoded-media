@@ -15,7 +15,7 @@ Rules:
 
 ## Topics (take the first [ ])
 - [x] 2026-11-27 (trial, posts/2026-11-27-tips-trial) High-protein Indian foods (VEG vs NON-VEG, protein per serving)
-- [ ] High-protein Indian breakfasts (poha + peanuts, besan chilla, moong chilla, paneer paratha, eggs + toast, sprouts)
+- [x] 2026-11-28 High-protein Indian breakfasts (poha + peanuts, besan chilla, moong chilla, paneer paratha, eggs + toast, sprouts)
 - [x] 2026-11-27 Before gym vs after gym: what to eat (banana, toast + peanut butter / dal-rice, eggs, paneer, curd)
 - [ ] Fibre-rich Indian foods (whole fruit, rajma, chana, oats, whole-wheat roti, sabzi)
 - [ ] Make your thali balanced (½ sabzi, ¼ dal/paneer/protein, ¼ rice/roti, curd/salad)
