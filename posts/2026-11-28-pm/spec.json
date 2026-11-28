@@ -1,0 +1,78 @@
+{
+ "label": "SAVE THIS",
+ "headline": "HIGH-PROTEIN INDIAN *BREAKFASTS*",
+ "sub": "Protein per serving · pair 2 for a strong start",
+ "photo": "FitDecoded_11.jpg",
+ "value_label": "protein",
+ "columns": [
+  {
+   "name": "VEG",
+   "icon": "leaf",
+   "items": [
+    [
+     "1f95e",
+     "Moong chilla",
+     "2 chillas",
+     "~12g",
+     "from ~50 g moong dal"
+    ],
+    [
+     "1f95e",
+     "Besan chilla",
+     "2 chillas",
+     "~11g",
+     "from ~50 g besan"
+    ],
+    [
+     "1f9c0",
+     "Paneer",
+     "50 g",
+     "~9g",
+     "in paratha or bhurji"
+    ],
+    [
+     "1f95c",
+     "Peanut poha",
+     "1 plate",
+     "~8g",
+     "with 2 tbsp peanuts"
+    ]
+   ]
+  },
+  {
+   "name": "EGG & DAIRY",
+   "icon": "egg",
+   "items": [
+    [
+     "1f95a",
+     "Boiled eggs",
+     "2 large",
+     "~12g",
+     "ready in 10 min"
+    ],
+    [
+     "1f373",
+     "Egg bhurji",
+     "2 eggs + toast",
+     "~17g",
+     "with 2 bread slices"
+    ],
+    [
+     "1f963",
+     "Dahi (curd)",
+     "1 bowl",
+     "~7g",
+     "200 g, add fruit"
+    ],
+    [
+     "1f95b",
+     "Milk",
+     "1 glass",
+     "~8g",
+     "250 ml"
+    ]
+   ]
+  }
+ ],
+ "tip": "Pair 2 items (chilla + curd, eggs + milk) for ~15-20g protein."
+}
