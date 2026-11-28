@@ -12,7 +12,7 @@ alternate men and girl clips by day; correct muscles + safe cues; 3 h gap from a
 - [x] 2026-11-25 Chest (men) — CHEST
 - [x] 2026-11-26 Back (girl) — BACK
 - [x] 2026-11-27 Shoulders (men) — SHOULDERS
-- [ ] Hips / glutes (girl) — GLUTES
+- [x] 2026-11-28 Hips / glutes (girl) — GLUTES
 - [ ] Abs (men) — ABS
 - [ ] Biceps + triceps (girl) — ARMS
 - [ ] Calves + cardio finisher (men) — CARDIO
